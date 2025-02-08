@@ -8,13 +8,15 @@ cd frameworks/
 # in order to simulate (probably) real projects,
 # and to be able to run this script non-interactively.
 #
+# Unfortunately, I'm not an expert in all these,
+# and a good few still prompt
+#
 ###############
 set +xe
 
 # Adonis 
 # https://docs.adonisjs.com/guides/getting-started/installation
 npm init adonisjs@latest adonis -- \
-  --auth-guard \
   --db=sqlite \
   --kit=api
 
@@ -40,11 +42,11 @@ npm create astro@latest astro \
 
 # Ember
 # https://github.com/embroider-build/app-blueprint
-npx ember-cli@latest new ember \
+npx ember-cli@latest new emberjs \
   --blueprint @embroider/app-blueprint@latest \
   --typescript \
   --pnpm \
-  --no-git
+  --skip-git
 
 # NextJS
 # https://nextjs.org/docs/app/getting-started/installation
@@ -74,7 +76,8 @@ npx create-remix@latest remix \
 
 # SailsJS
 # https://sailsjs.com/get-started
-npx sails new sailsjs
+npx sails new sailsjs -- \
+  --fast
 
 # SolidJS
 # https://www.solidjs.com/guides/getting-started
@@ -106,8 +109,8 @@ npm create vue@latest vue \
 # Vite-templates
 # https://vite.dev/guide/
 function vite() {
-  npm create vite@latest --template $1 "vite-$1"
-  npm create vite@latest --template "$1-ts" "vite-$1-ts"
+  npm create vite@latest -- --template $1 "vite-$1"
+  npm create vite@latest -- --template "$1-ts" "vite-$1-ts"
 }
 vite vanilla
 vite vue
@@ -123,3 +126,5 @@ vite qwik
 # Delete any .git directories, as
 # Not all tools above have a way to opt out
 find . -name '.git' -type d -prune -exec rm -rf '{}' +
+# Same for node_modules, ugh
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
