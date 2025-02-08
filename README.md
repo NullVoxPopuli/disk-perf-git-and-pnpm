@@ -15,7 +15,7 @@ Steps:
 have `node` @ >= 22.11 
 have `pnpm` @ >= 10.2
 
-(if you have proto or volta installed, these versions will be selected for you)
+(if you have [proto](https://moonrepo.dev/proto) (with auto-install) or [volta](https://volta.sh/) installed, these versions will be selected for you)
 
 ```bash
 git clone git@github.com:NullVoxPopuli/disk-perf-git-and-pnpm.git
