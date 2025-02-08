@@ -67,6 +67,10 @@ npx ember-cli@latest new emberjs \
 # Gatsby
 # https://www.gatsbyjs.com/docs/quick-start/
 
+# Ionic
+# https://ionicframework.com/docs/intro/cli
+# Couldn't find ionic project generators
+
 # Meteor
 # https://docs.meteor.com/about/install.html
 # Could not figure out how to get this to work
@@ -127,6 +131,9 @@ pnpm create t3-app@latest
 # https://tanstack.com/start/latest/docs/framework/react/quick-start
 npx degit https://github.com/tanstack/router/examples/react/start-basic tanstack-start
 
+# TutorialKit
+# https://tutorialkit.dev/guides/installation/
+pnpm create tutorial
 
 
 # VuePress
