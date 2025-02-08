@@ -1,0 +1,12 @@
+{
+  "name": "disk-perf-git-and-pnpm",
+  "private": true,
+  "packageManager": "pnpm@10.2.1",
+  "engines": {
+    "node": ">= 22.11.0"
+  },
+  "volta": {
+    "pnpm": "10.2.1",
+    "node": "22.11.0"
+  }
+}
