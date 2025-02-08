@@ -55,6 +55,9 @@ npx ember-cli@latest new emberjs \
   --pnpm \
   --skip-git
 
+# Gatsby
+# https://www.gatsbyjs.com/docs/quick-start/
+
 # Meteor
 # https://docs.meteor.com/about/install.html
 # Could not figure out how to get this to work
