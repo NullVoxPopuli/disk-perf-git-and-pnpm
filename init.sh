@@ -9,7 +9,10 @@ cd frameworks/
 # and to be able to run this script non-interactively.
 #
 # Unfortunately, I'm not an expert in all these,
-# and a good few still prompt
+# and a good few still prompt.
+#
+# I don't expect all of these generated projects to be functional.
+# But that's ok, the projects *running* is not part of this test.
 #
 ###############
 set +xe
