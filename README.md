@@ -37,6 +37,28 @@ And then once that finishes, we can run the _install_ test:
 time ( pnpm install )
 ```
 
+if you're using zsh, your time will be `total`.
+
+<details><summary>example</summary>
+
+```bash
+0.01s user 0.00s system 94% cpu 0.007 total
+#.                                    ^ this number
+```
+
+</details>
+
+if you're using bash, your time will bu `real`.
+
+<details><summary>example</summary>
+
+```bash
+real    2.02s # this number
+user    0.00s
+sys     0.01s
+```
+
+</details>
 
 ### PR your Results back to this Repo:
 
