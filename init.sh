@@ -65,6 +65,17 @@ npx nuxi@latest init nuxtjs \
   --no-install \
   --packageManager pnpm
 
+# Remix
+# https://remix.run/docs/en/main/start/quickstart
+npx create-remix@latest remix \
+  --no-install \
+  --no-git-init \
+  --yes
+
+# SailsJS
+# https://sailsjs.com/get-started
+npx sails new sailsjs
+
 # SolidJS
 # https://www.solidjs.com/guides/getting-started
 npx degit solidjs/templates/ts solidjs
