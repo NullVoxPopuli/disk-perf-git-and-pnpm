@@ -43,6 +43,10 @@ npm create astro@latest astro \
   --no-git \
   --yes
 
+# Aurelia
+# https://docs.aurelia.io/introduction/aurelia-for-new-developers 
+npx makes aurelia
+
 # Ember
 # https://github.com/embroider-build/app-blueprint
 npx ember-cli@latest new emberjs \
