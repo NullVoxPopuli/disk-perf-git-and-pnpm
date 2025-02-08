@@ -42,7 +42,7 @@ time ( pnpm install )
 
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk |
 | --- | -------- | --------- | ----------- | ---- | ----- |
-| AMD Ryzen 5 7640U 12 Core | 92GB | 6.8s | 5.9s | 2025-02-07 | Ext4 : WD Black SN850 500GB | 
-| AMD Ryzen 9 7900X 12/24 Core | 64GB | 6.0s | 4.3s | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
+| AMD Ryzen 5 7640U 12 Core | 92 | 6.8 | 5.9 | 2025-02-07 | Ext4 : WD Black SN850 500GB | 
+| AMD Ryzen 9 7900X 12/24 Core | 64 | 6.0 | 4.3 | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
 
 
