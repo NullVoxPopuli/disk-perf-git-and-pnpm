@@ -48,12 +48,21 @@ npm create astro@latest astro \
 npx makes aurelia
 
 # Ember
+# https://guides.emberjs.com/release/getting-started/quick-start/
+npx ember-cli@latest new emberjs-classic \
+  --typescript \
+  --pnpm \
+  --skip-git \
+  --skip-install
+
+# Ember (Vite)
 # https://github.com/embroider-build/app-blueprint
 npx ember-cli@latest new emberjs \
   --blueprint @embroider/app-blueprint@latest \
   --typescript \
   --pnpm \
-  --skip-git
+  --skip-git \
+  --skip-install
 
 # Gatsby
 # https://www.gatsbyjs.com/docs/quick-start/
@@ -109,6 +118,16 @@ npx sv create sveltekit \
   --types ts \
   --no-install \
   --no-add-ons
+
+# T3
+# https://create.t3.gg/
+pnpm create t3-app@latest
+
+# TanStack Start
+# https://tanstack.com/start/latest/docs/framework/react/quick-start
+npx degit https://github.com/tanstack/router/examples/react/start-basic tanstack-start
+
+
 
 # VuePress
 # https://vuepress.vuejs.org/guide/getting-started.html#project-setup
