@@ -29,7 +29,7 @@ pnpm install # Fill the cache so we don't hit the network during testing
 Since you've installed all the dependencies already,
 we can start with the _clean_ test:
 ```bash 
-time ( git clean -Xfd; git celan -fd )
+time ( git clean -Xfd; git clean -fd )
 ```
 
 And then once that finishes, we can run the _install_ test:
@@ -42,4 +42,9 @@ time ( pnpm install )
 
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk |
 | --- | -------- | --------- | ----------- | ---- | ----- |
-| AMD Ryzen 9 7900X 12/24 Core | 64GB | 3.5s | 2.9s | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
+| AMD Ryzen 5 7640U 12 Core | 92GB | 6.8s | 5.9s | 2025-02-07 | Ext4 : WD Black SN850 500GB | 
+
+
+<!--
+| AMD Ryzen 9 7900X 12/24 Core | 64GB | ... | ... | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
+-->
