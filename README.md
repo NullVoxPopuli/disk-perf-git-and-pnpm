@@ -42,4 +42,4 @@ time ( pnpm install )
 
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk |
 | --- | -------- | --------- | ----------- | ---- | ----- |
-| AMD Ryzen 9 7900X 12/24 Core | 64GB | 2.5s | 2.3s | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
+| AMD Ryzen 9 7900X 12/24 Core | 64GB | 3.5s | 2.9s | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 

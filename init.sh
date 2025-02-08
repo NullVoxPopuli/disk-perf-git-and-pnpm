@@ -51,6 +51,11 @@ npx ember-cli@latest new emberjs \
   --pnpm \
   --skip-git
 
+# Meteor
+# https://docs.meteor.com/about/install.html
+# Could not figure out how to get this to work
+# npx meteor -- create meteor 
+
 # NextJS
 # https://nextjs.org/docs/app/getting-started/installation
 npx create-next-app@latest nextjs \
