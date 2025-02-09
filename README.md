@@ -47,7 +47,6 @@ Windows Powershell:
 (Measure-Command { pnpm install }).ToString()
 ```
 
-
 if you're using zsh, your time will be `total`.
 
 <details><summary>example</summary>
@@ -70,10 +69,6 @@ sys     0.01s
 ```
 
 </details>
-
-```powershell
-
-```
 
 ### PR your Results back to this Repo:
 
