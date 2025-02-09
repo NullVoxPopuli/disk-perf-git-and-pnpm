@@ -32,20 +32,23 @@ we can start with the _clean_ test:
 time ( git clean -Xfd; git clean -fd )
 ```
 
-<details><summary>If using PowerShell</summary>
 
-```bash
-Measure-Command {start-process git clean -Xfd -Wait}
+Windows Powershell:
+```powershell
+(Measure-Command { git clean -Xfd; git clean -fd }).ToString()
 ```
-
-</details>
 
 And then once that finishes, we can run the _install_ test:
 ```bash
 time ( pnpm install )
 ```
 
-<details><summary>If using PowerShell</summary>
+Windows Powershell:
+```powershell
+(Measure-Command { pnpm install }).ToString()
+```
+
+if you're using zsh, your time will be `total`.
 
 ```bash
 Measure-Command {start-process pnpm install -Wait}
@@ -91,3 +94,4 @@ and round to the tenths decimal place
 | Apple M4 | 16 | 29.6 | 31.4 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024Z 1TB | |
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX | Ubuntu 22.04.3 |
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX | Windows 10 Pro |
+| AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-09 | NTFS : WD Black SN850x 2TB | Windows 11 Pro 23H2 |
