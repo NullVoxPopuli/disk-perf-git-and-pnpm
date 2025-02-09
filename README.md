@@ -43,12 +43,12 @@ if you're using zsh, your time will be `total`.
 
 ```bash
 0.01s user 0.00s system 94% cpu 0.007 total
-#.                                    ^ this number
+#.                              ^ this number
 ```
 
 </details>
 
-if you're using bash, your time will bu `real`.
+if you're using bash, your time will be `real`.
 
 <details><summary>example</summary>
 
