@@ -63,7 +63,7 @@ sys     0.01s
 ### PR your Results back to this Repo:
 
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk | OS |
-| --- | -------- | --------- | ----------- | ---- | ----- |
+| --- | -------- | --------- | ----------- | ---- | ----- | --- |
 | AMD Ryzen 5 7640U 12 Core | 92 | 6.8 | 5.9 | 2025-02-07 | Ext4 : WD Black SN850 500GB | Ubuntu 24.04.1 |
 | AMD Ryzen 9 7900X 12/24 Core | 64 | 6.0 | 4.3 | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | | Ubuntu 24.04.1 |
 | Apple M1 Max | 64 | 21.299 | 219 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024R 1TB | |
