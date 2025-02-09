@@ -85,5 +85,5 @@ sys     0.01s
 | Apple M1 Pro | 16 | 42.214 | 44.014 | 2025-02-09 | APFS (Encrypted) : APPLE SSD AP0512R 500GB | macOS Sequoia 15.3 |
 | Apple M1 Max | 64 | 21.299 | 219 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024R 1TB | |
 | Apple M4 | 16 | 29.6 | 31.4 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024Z 1TB | |
-| AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX | |
-| AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX | |
+| AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX | Ubuntu 22.04.3 |
+| AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX | Windows 10 Pro |
