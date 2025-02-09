@@ -32,10 +32,21 @@ we can start with the _clean_ test:
 time ( git clean -Xfd; git clean -fd )
 ```
 
+Windows Powershell:
+```powershell
+(Measure-Command { git clean -Xfd; git clean -fd }).ToString()
+```
+
 And then once that finishes, we can run the _install_ test:
 ```bash
 time ( pnpm install )
 ```
+
+Windows Powershell:
+```powershell
+(Measure-Command { pnpm install }).ToString()
+```
+
 
 if you're using zsh, your time will be `total`.
 
@@ -60,6 +71,10 @@ sys     0.01s
 
 </details>
 
+```powershell
+
+```
+
 ### PR your Results back to this Repo:
 
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk |
@@ -70,3 +85,4 @@ sys     0.01s
 | Apple M4 | 16 | 29.6 | 31.4 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024Z 1TB |
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX |
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX |
+| AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-07 | NTFS : WD Black SN850x 2TB | 
