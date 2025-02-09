@@ -48,14 +48,6 @@ Windows Powershell:
 (Measure-Command { pnpm install }).ToString()
 ```
 
-if you're using zsh, your time will be `total`.
-
-```bash
-Measure-Command {start-process pnpm install -Wait}
-```
-
-</details>
-
 <details><summary>If using zsh</summary>
   
 your time will be `total`.
