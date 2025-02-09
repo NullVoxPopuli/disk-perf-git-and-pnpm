@@ -32,14 +32,30 @@ we can start with the _clean_ test:
 time ( git clean -Xfd; git clean -fd )
 ```
 
+<details><summary>If using PowerShell</summary>
+
+```bash
+Measure-Command {start-process git clean -Xfd -Wait}
+```
+
+</details>
+
 And then once that finishes, we can run the _install_ test:
 ```bash
 time ( pnpm install )
 ```
 
-if you're using zsh, your time will be `total`.
+<details><summary>If using PowerShell</summary>
 
-<details><summary>example</summary>
+```bash
+Measure-Command {start-process pnpm install -Wait}
+```
+
+</details>
+
+<details><summary>If using zsh</summary>
+  
+your time will be `total`.
 
 ```bash
 0.01s user 0.00s system 94% cpu 0.007 total
@@ -48,9 +64,9 @@ if you're using zsh, your time will be `total`.
 
 </details>
 
-if you're using bash, your time will be `real`.
+<detailS><summary>if using bash</summary>
 
-<details><summary>example</summary>
+your time will be `real`.
 
 ```bash
 real    2.02s # this number
@@ -58,7 +74,7 @@ user    0.00s
 sys     0.01s
 ```
 
-</details>
+</detailS>
 
 ### PR your Results back to this Repo:
 
