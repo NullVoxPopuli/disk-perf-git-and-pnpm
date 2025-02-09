@@ -81,12 +81,13 @@ sys     0.01s
 
 ### PR your Results back to this Repo:
 
-| CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk |
-| --- | -------- | --------- | ----------- | ---- | ----- |
-| AMD Ryzen 5 7640U 12 Core | 92 | 6.8 | 5.9 | 2025-02-07 | Ext4 : WD Black SN850 500GB | 
-| AMD Ryzen 9 7900X 12/24 Core | 64 | 6.0 | 4.3 | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | 
-| Apple M1 Max | 64 | 21.299 | 219 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024R 1TB |
-| Apple M4 | 16 | 29.6 | 31.4 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024Z 1TB |
-| AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX |
-| AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX |
-| AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-09 | NTFS : WD Black SN850x 2TB | 
+| CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk | OS |
+| --- | -------- | --------- | ----------- | ---- | ----- | --- |
+| AMD Ryzen 5 7640U 12 Core | 92 | 6.8 | 5.9 | 2025-02-07 | Ext4 : WD Black SN850 500GB | Ubuntu 24.04.1 |
+| AMD Ryzen 9 7900X 12/24 Core | 64 | 6.0 | 4.3 | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | Ubuntu 24.04.1 |
+| Apple M1 Pro | 16 | 42.214 | 44.014 | 2025-02-09 | APFS (Encrypted) : APPLE SSD AP0512R 500GB | macOS Sequoia 15.3 |
+| Apple M1 Max | 64 | 21.299 | 219 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024R 1TB | |
+| Apple M4 | 16 | 29.6 | 31.4 | 2025-02-08 | APFS (Encrypted) : APPLE SSD AP1024Z 1TB | |
+| AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX | |
+| AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX | |
+| AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-09 | NTFS : WD Black SN850x 2TB | Win64 23H2 |
