@@ -87,3 +87,4 @@ and round to the tenths decimal place
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 17.1 | 16.1 | 2025-02-09 | Ext4 : Corsair MP600 PRO LPX | Ubuntu 22.04.3 |
 | AMD Ryzen 7 7800X3D 8 Core | 32 | 65.5 | 42.3 | 2025-02-09 | NTFS : Corsair MP600 PRO LPX | Windows 10 Pro 22H2 |
 | AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-09 | NTFS : WD Black SN850x 2TB | Windows 11 Pro 23H2 |
+| Intel i5-1145G7 8 Core | 32 | 1.9 | 15.3 | 2025-02-10 | Ext4 : BC711 NVMe SK hynix 512GB | Debian Trixie |
