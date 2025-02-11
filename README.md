@@ -91,11 +91,14 @@ and round to the tenths decimal place
 | Intel i5-1145G7 8 Core | 32 | 1.9 | 15.3 | 2025-02-10 | Ext4 : BC711 NVMe SK hynix 512GB | Debian Trixie |
 
 
+----------------------
 
 ## What to do for now?
 
-If you're on macOS, there are some options:
-- Put everything in a RAM disk: https://gist.github.com/boxabirds/b92fec28c58e6c2cc9513f16c2bbeb91
+If you're using macOS, and your file system performance is unbearable, there are some options:
+
+- https://gist.github.com/boxabirds/b92fec28c58e6c2cc9513f16c2bbeb91
+  - Put everything in a RAM disk: 
   - or OverlayFS via Docker 
 - use a Linux VM to get ext4 speeds
 
