@@ -92,7 +92,12 @@ and round to the tenths decimal place
 
 
 
+## What to do for now?
 
+If you're on macOS, there are some options:
+- Put everything in a RAM disk: https://gist.github.com/boxabirds/b92fec28c58e6c2cc9513f16c2bbeb91
+  - or OverlayFS via Docker 
+- use a Linux VM to get ext4 speeds
 
 
 
