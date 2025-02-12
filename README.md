@@ -80,10 +80,10 @@ and round to the tenths decimal place
 #### MacOS
 
 1. Apple Menu
-2. "About this Mac"
-3. "More Info..."
-4. scroll down and click "System Report..."
-5. in the left nav, click "NVMExpress"
+2. "About this Mac" (a window appears)
+3. "More Info..." (a window appears)
+4. scroll down and click "System Report..." (a window appears)
+5. in the left nav of this third window, click "NVMExpress"
   
 </details>
 
