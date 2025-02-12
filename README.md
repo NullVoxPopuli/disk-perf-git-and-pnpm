@@ -73,7 +73,19 @@ sys     0.01s
 
 and round to the tenths decimal place
 
-</detailS>
+</details>
+
+<details><summay>How to find your disk info</summay>
+
+#### MacOS
+
+1. Apple Menu
+2. "About this Mac"
+3. "More Info..."
+4. scroll down and click "System Report..."
+5. in the left nav, click "NVMExpress"
+  
+</details>
 
 ### PR your Results back to this Repo:
 
