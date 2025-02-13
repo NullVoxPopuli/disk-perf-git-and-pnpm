@@ -90,7 +90,7 @@ and round to the tenths decimal place
 | AMD Ryzen 5 7800X3D 8 Core | 64 | 69.5 | 73.3 | 2025-02-09 | NTFS : WD Black SN850x 2TB | Windows 11 Pro 23H2 |
 | AMD Ryzen 5 7800X3D 8 Core | 64 | 23.7 | 19.0 | 2025-02-09 | Ext4 : WD Black SN850x 2TB | W11 Pro 23H2 / WSL2 / Ubuntu 24.04 |
 | Intel i5-1145G7 8 Core | 32 | 1.9 | 15.3 | 2025-02-10 | Ext4 : BC711 NVMe SK hynix 512GB | Debian Trixie |
-| Apple M4 Pro (14 Cores) | 48 | 30.1 | 65.1 | 2025-02-12 | APPLE SSD AP2048Z 2TB | macOS 15.3 |
+| Apple M4 Pro (14 Cores) | 48 | 30.1 | 65.1 | 2025-02-12 | APFS (Encrypted) : APPLE SSD AP2048Z 2TB | macOS 15.3 |
 
 
 ----------------------
