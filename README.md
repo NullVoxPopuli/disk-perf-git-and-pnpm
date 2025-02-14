@@ -18,7 +18,7 @@ have `pnpm` @ >= 10.2
 (if you have [proto](https://moonrepo.dev/proto) (with auto-install) or [volta](https://volta.sh/) installed, these versions will be selected for you)
 
 ```bash
-git clone git@github.com:NullVoxPopuli/disk-perf-git-and-pnpm.git
+git clone https://github.com/NullVoxPopuli/disk-perf-git-and-pnpm.git
 cd disk-perf-git-and-pnpm
 
 pnpm install # Fill the cache so we don't hit the network during testing
