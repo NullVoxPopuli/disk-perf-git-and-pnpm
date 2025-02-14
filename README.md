@@ -106,7 +106,7 @@ and round to the tenths decimal place
 | Intel i5-1145G7 8 Core | 32 | 1.9 | 15.3 | 2025-02-10 | Ext4 : BC711 NVMe SK hynix 512GB | Debian Trixie |
 | Apple M1 Max | 32 | 71.4 | 87.7 | 2025-02-12 | APFS (Encrypted): APPLE SSD AP2048R 2TB | macOS 14.6.1 |
 | Apple M4 Pro (14 Cores) | 48 | 30.1 | 65.1 | 2025-02-12 | APFS (Encrypted) : APPLE SSD AP2048Z 2TB | macOS 15.3 |
-| Apple M1 Ultra | 64 | 45.161 | 137.5s | 2025-02-13 | APFS (Unencrypted) : APPLE SSD AP1024R 1TB | macOS 15.3 |
+| Apple M1 Ultra | 64 | 45.161 | 137.5 | 2025-02-13 | APFS (Unencrypted) : APPLE SSD AP1024R 1TB | macOS 15.3 |
 
 
 ----------------------
