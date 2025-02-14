@@ -108,6 +108,8 @@ and round to the tenths decimal place
 | Apple M4 Pro (14 Cores) | 48 | 30.1 | 65.1 | 2025-02-12 | APFS (Encrypted) : APPLE SSD AP2048Z 2TB | macOS 15.3 |
 | Apple M1 Ultra | 64 | 45.2 | 137.5 | 2025-02-13 | APFS (Unencrypted) : APPLE SSD AP1024R 1TB | macOS 15.3 |
 | Apple M2 Max (6 vCPU) | 16 | 3.2 | 12 | 2025-02-14 | Ext4 : APPLE SSD AP1024Z | Ubuntu 24.04 (virtualized via Parallels) |
+| Apple M2 Max (6 vCPU) | 16 | 2.8 | 11.9 | 2025-02-14 | Ext4 LVM2 Encrypted : APPLE SSD AP1024Z | Ubuntu 24.04 (virtualized via Parallels) |
+
 
 
 ----------------------
