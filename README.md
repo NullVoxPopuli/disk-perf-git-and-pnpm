@@ -110,7 +110,7 @@ and round to the tenths decimal place
 | Apple M2 Max (6 vCPU) | 16 | 3.2 | 12 | 2025-02-14 | Ext4 : APPLE SSD AP1024Z | Ubuntu 24.04 (virtualized via Parallels) |
 | Apple M2 Max (6 vCPU) | 16 | 2.8 | 11.9 | 2025-02-14 | Ext4 LVM2 Encrypted : APPLE SSD AP1024Z | Ubuntu 24.04 (virtualized via Parallels) |
 | Apple M2 Max (6 vCPU) | 16 | 1.6 | 10.7 | 2025-02-14 | tmpfs (ramdisk) : Hynix LPDDR5 / Virtual RAM | Ubuntu 24.04 (virtualized via Parallels) |
-
+| Apple M1 Pro | 32 | 44.5 | 50.2 | 2025-02-15 | APFS (Encrypted) : APPLE SSD AP0512R 500GB | macOS 15.3 |
 
 
 
