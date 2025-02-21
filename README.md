@@ -114,6 +114,7 @@ and round to the tenths decimal place
 | Apple M1 | 16 | 37.8 | 33.3 | 2025-02-19 | APFS (Encypted) : APPLE SSD AP0512Q 500GB | macOS 15.3.1 |
 | Apple M1 Pro | 16 | 59.4 | 69.1 | 2025-02-19 | APFS (Encrypted) : APPLE SSD AP1024R 1TB | macOS 14.7.3 |
 | Apple M4 Max (16 Cores) | 128 | 36.7 | 64.5 | 2025-02-20 | APFS (Encrypted) : APPLE SSD AP2048Z 2TB | macOS 15.2 |
+| Intel Core i7 14700K (20 Cores) | 64 | 3.1 | 13.8 | 2025-02-21 | Ext4 : WD Black 2TB SN850 | W10 22H2 / WSL2 / Ubuntu 24.04 |
 
 
 ----------------------
