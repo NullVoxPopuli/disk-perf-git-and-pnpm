@@ -94,6 +94,7 @@ and round to the tenths decimal place
 | CPU | RAM (GB) | Clean (s) | Install (s) | Date | FileSystem & Disk | OS |
 | --- | -------- | --------- | ----------- | ---- | ----- | --- |
 | AMD Ryzen 5 7640U 12 Core | 92 | 6.8 | 5.9 | 2025-02-07 | Ext4 : WD Black SN850 500GB | Ubuntu 24.04.1 |
+| AMD Ryzen 5 7640U throttle to ~550Mhz | 92 | 56 | 44 | 2025-02-24 | Ext4 : WD Black SN850 500GB | Ubuntu 24.10 |
 | AMD Ryzen 9 7900X 12/24 Core | 64 | 6.0 | 4.3 | 2025-02-07 | Ext4 : Samsung SSD 980 Pro 2TB | Ubuntu 24.04.1 |
 | AMD Ryzen 9 7900X 12/24 Core | 64 | 3.3 | 4.0 | 2025-02-07 | tmpfs (ramdisk) : G.Skill F5-6000J3040G32G | Ubuntu 24.04.1 |
 | Apple M1 Pro | 16 | 42.2 | 44.0 | 2025-02-09 | APFS (Encrypted) : APPLE SSD AP0512R 500GB | macOS 15.3 |
