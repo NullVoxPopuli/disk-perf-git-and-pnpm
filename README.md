@@ -118,6 +118,7 @@ and round to the tenths decimal place
 | Apple M3 | 24 | 46.6 | 44.6 | 2025-02-20 | APFS : APPLE SSD AP1024Z 1TB | macOS ?? |
 | Intel Core i7 14700K (20 Cores) | 64 | 3.1 | 13.8 | 2025-02-21 | Ext4 : WD Black 2TB SN850 | W10 22H2 / WSL2 / Ubuntu 24.04 |
 | Apple M3 Pro | 18 | 37.7 | 40 | 2025-02-22 | APFS : APPLE SSD AP1024Z 1TB | macOS 15.3 |
+| Apple M2 Pro | 32 | 34.6 | 32.0 | 2025-02-24 | APFS : APPLE SSD AP0512Z | macOS 13.6
 
 
 ----------------------
