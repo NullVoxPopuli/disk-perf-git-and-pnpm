@@ -123,6 +123,8 @@ and round to the tenths decimal place
 | Apple M3 | 16 | 34.213 | 27.851 | 2025-02-25 | APFS: APPLE SSD AP1024Z | macOS 15.3.1 |
 | Apple M3 Pro (12 Core, 6p6e) | 36 | 47.8 | 52.6 | 2025-02-25 | APFS (Unencrypted) : APPLE SSD AP0512Z 500GB | macOS 14.7.4 |
 | Apple M3 Pro (12 Core, 6p6e) | 36 | 32 | 53.3 | 2025-02-25 | APFS (Unencrypted, no spotlight) : APPLE SSD AP0512Z 500GB | macOS 14.7.4 |
+| Apple M3 Pro (12 Core, 6p6e) | 36 | 26.3 | 19.9 | 2025-02-25 | APFS (Unencrypted, no spotlight, no XProtect) : APPLE SSD AP0512Z 500GB | macOS 14.7.4 |
+
 
 
 ----------------------
