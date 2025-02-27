@@ -125,6 +125,7 @@ and round to the tenths decimal place
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 32        | 53.3        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled       |
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 26.3      | 19.9        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled, `csrutil disable` |
 | 2025-02-26 | Apple M2 Max (12 Core, 8p4e)          | 32       | 41.4      | 39.8        | macOS 15.3.1                             | APFS (Encrypted)    | APPLE SSD AP1024Z 1TB             | Spotlight disabled, Kandji, Sentinal One |
+| 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM |
 
 
 ----------------------
