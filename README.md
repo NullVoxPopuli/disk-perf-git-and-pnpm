@@ -108,9 +108,9 @@ and round to the tenths decimal place
 | 2025-02-12 | Apple M1 Max                          | 32       | 71.4      | 87.7        | macOS 14.6.1                             | APFS (Encrypted)    | APPLE SSD AP2048R 2TB             |                          |
 | 2025-02-12 | Apple M4 Pro (14 Cores)               | 48       | 30.1      | 65.1        | macOS 15.3                               | APFS (Encrypted)    | APPLE SSD AP2048Z 2TB             |                          |
 | 2025-02-13 | Apple M1 Ultra                        | 64       | 45.2      | 137.5       | macOS 15.3                               | APFS                | APPLE SSD AP1024R 1TB             |                          |
-| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 3.2       | 12          | Ubuntu 24.04 (virtualized via Parallels) | Ext4                | APPLE SSD AP1024Z                 |                          |
-| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 2.8       | 11.9        | Ubuntu 24.04 (virtualized via Parallels) | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 |                          |
-| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 1.6       | 10.7        | Ubuntu 24.04 (virtualized via Parallels) | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        |                          |
+| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 3.2       | 12          | Ubuntu 24.04                             | Ext4                | APPLE SSD AP1024Z                 | Parallels VM             |
+| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 2.8       | 11.9        | Ubuntu 24.04                             | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM             |
+| 2025-02-14 | Apple M2 Max (6 vCPU)                 | 16       | 1.6       | 10.7        | Ubuntu 24.04                             | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        | Parallels VM             |
 | 2025-02-15 | Apple M1 Pro                          | 32       | 44.5      | 50.2        | macOS 15.3                               | APFS (Encrypted)    | APPLE SSD AP0512R 500GB           |                          |
 | 2025-02-19 | Apple M1                              | 16       | 37.8      | 33.3        | macOS 15.3.1                             | APFS (Encypted)     | APPLE SSD AP0512Q 500GB           |                          |
 | 2025-02-19 | Apple M1 Pro                          | 16       | 59.4      | 69.1        | macOS 14.7.3                             | APFS (Encrypted)    | APPLE SSD AP1024R 1TB             |                          |
@@ -125,7 +125,7 @@ and round to the tenths decimal place
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 32        | 53.3        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled       |
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 26.3      | 19.9        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled, `csrutil disable` |
 | 2025-02-26 | Apple M2 Max (12 Core, 8p4e)          | 32       | 41.4      | 39.8        | macOS 15.3.1                             | APFS (Encrypted)    | APPLE SSD AP1024Z 1TB             | Spotlight disabled, Kandji, Sentinal One |
-| 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM |
+| 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM VM |
 
 
 ----------------------
