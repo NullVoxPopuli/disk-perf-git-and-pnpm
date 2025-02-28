@@ -124,8 +124,11 @@ and round to the tenths decimal place
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 47.8      | 52.6        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           |                          |
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 32        | 53.3        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled       |
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 26.3      | 19.9        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled, `csrutil disable` |
-| 2025-02-26 | Apple M2 Max (12 Core, 8p4e)          | 32       | 41.4      | 39.8        | macOS 15.3.1                             | APFS (Encrypted)    | APPLE SSD AP1024Z 1TB             | Spotlight disabled, Kandji, Sentinal One |
+| 2025-02-26 | Apple M2 Max (12 Core, 8p4e)          | 32       | 41.4      | 39.8        | macOS 15.3.1                             | APFS (Encrypted)    | APPLE SSD AP1024Z 1TB             | Spotlight disabled, Kandji, SentinelOne |
 | 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM VM |
+| 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 11.9      | 15.7        | Ubuntu 24.04.2                           | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, SentinelOne |
+| 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 9.1       | 13.3        | Ubuntu 24.04.2                           | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        | Parallels VM, SentinelOne |
+
 
 
 ----------------------
