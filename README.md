@@ -40,12 +40,12 @@ Windows Powershell:
 
 And then once that finishes, we can run the _install_ test:
 ```bash
-time ( pnpm install )
+time ( pnpm install --ignore-scripts --prefer-offline )
 ```
 
 Windows Powershell:
 ```powershell
-(Measure-Command { pnpm install }).ToString()
+(Measure-Command { pnpm install --ignore-scripts --prefer-offline }).ToString()
 ```
 
 <details><summary>If using zsh</summary>
@@ -128,6 +128,10 @@ and round to the tenths decimal place
 | 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM VM |
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 11.9      | 15.7        | Ubuntu 24.04.2                           | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, SentinelOne |
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 9.1       | 13.3        | Ubuntu 24.04.2                           | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        | Parallels VM, SentinelOne |
+| 2025-03-03 | Apple M2 Max (6 vCPU)                 | 16       | 4.6       | 790.3       | Ubuntu 24.04                             | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, ClamAV + on-access-scanning             |
+| 2025-03-03 | Apple M2 Max (6 vCPU)                 | 16       | 4.4       | 700.3       | Ubuntu 24.04                             | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, ClamAV + on-access-scanning + excluting the pnpm store            |
+| 2025-03-03 | Apple M2 Max (6 vCPU)                 | 16       | 4.3       | 53.1       | Ubuntu 24.04                             | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, ClamAV + on-access-scanning + excluting the pnpm store and Code + disabled ExtraScanning           |
+
 
 
 
