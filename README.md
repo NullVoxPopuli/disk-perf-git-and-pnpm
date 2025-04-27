@@ -129,6 +129,7 @@ and round to the tenths decimal place
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 11.9      | 15.7        | Ubuntu 24.04.2                           | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, SentinelOne |
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 9.1       | 13.3        | Ubuntu 24.04.2                           | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        | Parallels VM, SentinelOne |
 | 2025-04-26 | Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz | 32       | 1:43.98       | 1:56.62        | macOS 15.4.1| APFS (Encrypted)     | Apple SSD AP1024N | |
+| 2025-04-27 | Apple M4 Pro (14 Core, 10p4e) | 48       | 1:04.48 | 2:25.40 | macOS 15.3.2 | APFS (Encrypted)     | Apple SSD AP1024Z | |
 
 
 
