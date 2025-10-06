@@ -131,7 +131,7 @@ and round to the tenths decimal place
 | 2025-04-26 | Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz | 32    | 103.98    | 116.62      | macOS 15.4.1                             | APFS (Encrypted)    | Apple SSD AP1024N                 |                           |
 | 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 64.48     | 145.40      | macOS 15.3.2                             | APFS (Encrypted)    | Apple SSD AP1024Z                 |                           |
 | 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 3.209     | 17.302      | Ubuntu 24.04.2                           | btrfs               | Apple SSD AP1024Z                 | Ubuntu machine running in OrbStack |
-| 2025-10-06 | Apple M2 Max (12 Core, 8p4e)          | 32       | 46.730    | 54.603s     | macOS 15.5                               | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, Code42, SentinelOne, tested in excluded directory |
+| 2025-10-06 | Apple M2 Max (12 Core, 8p4e)          | 32       | 46.730    | 54.603      | macOS 15.5                               | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, Code42, SentinelOne, tested in excluded directory |
 
 
 ----------------------
