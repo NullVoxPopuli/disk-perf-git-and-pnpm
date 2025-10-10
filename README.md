@@ -132,8 +132,8 @@ and round to the tenths decimal place
 | 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 64.48     | 145.40      | macOS 15.3.2                             | APFS (Encrypted)    | Apple SSD AP1024Z                 |                           |
 | 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 3.209     | 17.302      | Ubuntu 24.04.2                           | btrfs               | Apple SSD AP1024Z                 | Ubuntu machine running in OrbStack |
 | 2025-10-06 | Apple M2 Max (12 Core, 8p4e)          | 32       | 46.730    | 54.603      | macOS 15.5                               | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, Code42, SentinelOne, tested in excluded directory |
-| 2025-15-07 | Apple M3 Air (8 Core, 4p4e)           | 16       | 34.104    | 29.293      | macOS 15.7                               | APFS (Encrypted)    | Apple SSD AP0512Z 500GB           | Kandji, SentinelOne, tested in excluded directory |
-
+| 2025-10-07 | Apple M3 Air (8 Core, 4p4e)           | 16       | 34.104    | 29.293      | macOS 15.7                               | APFS (Encrypted)    | Apple SSD AP0512Z 500GB           | Kandji, SentinelOne, tested in excluded directory |
+| 2025-10-10 | Apple M4 Pro (12p4e)                  | 64       | 42.021    | 67.776      | macOS 15.6.1                             | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, SentinelOne, Cyberhaven, tested in excluded directory |
 
 ----------------------
 
