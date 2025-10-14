@@ -134,6 +134,8 @@ and round to the tenths decimal place
 | 2025-10-06 | Apple M2 Max (12 Core, 8p4e)          | 32       | 46.730    | 54.603      | macOS 15.5                               | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, Code42, SentinelOne, tested in excluded directory |
 | 2025-10-07 | Apple M3 Air (8 Core, 4p4e)           | 16       | 34.104    | 29.293      | macOS 15.7                               | APFS (Encrypted)    | Apple SSD AP0512Z 500GB           | Kandji, SentinelOne, tested in excluded directory |
 | 2025-10-10 | Apple M4 Pro (12p4e)                  | 64       | 42.021    | 67.776      | macOS 15.6.1                             | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, SentinelOne, Cyberhaven, tested in excluded directory |
+| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 100       | 401         | Windows 11 25H2                          | ReFS (Dev Drive, 4KB)    | Samsung 980 PRO 2TB               | Windows Defender Async scanning, git, pnpm , folder excluded |
+| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 111       | 120         | Windows 11 25H2                          | NTFS (BitLocker, 4KB)    | Samsung 960 EVO 1TB               | Windows Defender Sync scanning, git, pnpm folder excluded |
 
 ----------------------
 
