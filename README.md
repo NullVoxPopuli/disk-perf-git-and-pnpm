@@ -137,7 +137,7 @@ and round to the tenths decimal place
 | 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 100       | 401         | Windows 11 25H2                          | ReFS (Dev Drive, 4KB)    | Samsung 980 PRO 2TB               | Windows Defender Async scanning, git, pnpm , folder excluded |
 | 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 111       | 120         | Windows 11 25H2                          | NTFS (BitLocker, 4KB)    | Samsung 960 EVO 1TB               | Windows Defender Sync scanning, git, pnpm folder excluded |
 | 2026-03-05 | Apple M2 Pro (12 Core, 8p4e)          | 16       | 45        | 42          | macOS 26.2                               | APFS                | Apple SSD AP0512Z 500GB           |                           |
-
+| 2026-06-02 | Apple M1 Max                          | 64       | 46        | 51          | macOS 26.5.1                             | APFS                | APPLE SSD AP2048R 2TB             |                           |
 ----------------------
 
 ## What to do for now?
