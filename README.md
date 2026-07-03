@@ -142,7 +142,7 @@ and round to the tenths decimal place
 | 2026-07-02 | AMD EPYC 7313P 16 Core                | 251      | 35.4      | 17.6        | Debian GNU/Linux 12 (bookworm)           | ZFS (mirror)        | SanDisk SDLL1HLR076TCAA1 7.68TB SAS (2-way mirror) | Run in a Docker container on TrueNAS SCALE (kernel 6.12.91-production+truenas); tested on a mounted ZFS volume (2-way SSD mirror) |
 | 2026-07-02 | AMD Ryzen 9 5950X 16 Core             | 64       | 76.8      | 61.7        | Windows 11 Pro 25H2                      | NTFS (4KB)          | Corsair MP600 PRO XT 4TB          | Windows Defender real-time (sync) scanning, folder not excluded |
 | 2026-07-02 | Intel Core i9-14900HX (24 Cores)      | 32       | 2.1       | 9.1         | Ubuntu 26.04 LTS                         | ext4                | SK hynix Platinum P41/PC801 1TB   |                                                                                                  |
-| 2026-07-02 | 11th Gen Intel(R) Core(TM) i7-1165G7  | 8        | 8.152     | 30.718      | Fedora Linux 44                          | btrfs               | CRUCIAL M.2 SSD P3 CT4000P3SSD8 4TB |                           |
+| 2026-07-02 | 11th Gen Intel(R) Core(TM) i7-1165G7  | 64       | 8.152     | 30.718      | Fedora Linux 44                          | btrfs               | CRUCIAL M.2 SSD P3 CT4000P3SSD8 4TB |                           |
 ----------------------
 
 ## What to do for now?
