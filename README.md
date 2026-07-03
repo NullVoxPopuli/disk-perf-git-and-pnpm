@@ -140,6 +140,7 @@ and round to the tenths decimal place
 | 2026-06-02 | Apple M1 Max                          | 64       | 46        | 51          | macOS 26.5.1                             | APFS                | APPLE SSD AP2048R 2TB             |                           |
 | 2026-07-02 | AMD Ryzen AI 7 PRO 350                | 64       | 2.4       | 8.2         | Debian GNU/Linux 13 (trixie)             | Ext4                | Samsung SSD 990 PRO 2TB           | kernel: 7.0.12+deb13-amd64 |
 | 2026-07-02 | AMD EPYC 7313P 16 Core                | 251      | 35.4      | 17.6        | Debian GNU/Linux 12 (bookworm)           | ZFS (mirror)        | SanDisk SDLL1HLR076TCAA1 7.68TB SAS (2-way mirror) | Run in a Docker container on TrueNAS SCALE (kernel 6.12.91-production+truenas); tested on a mounted ZFS volume (2-way SSD mirror) |
+| 2026-07-02 | AMD Ryzen 9 5950X 16 Core             | 64       | 76.8      | 61.7        | Windows 11 Pro 25H2                      | NTFS (4KB)          | Corsair MP600 PRO XT 4TB          | Windows Defender real-time (sync) scanning, folder not excluded |
 ----------------------
 
 ## What to do for now?
