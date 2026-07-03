@@ -142,7 +142,7 @@ and round to the tenths decimal place
 | 2026-07-02 | AMD EPYC 7313P 16 Core                | 251      | 35.4      | 17.6        | Debian GNU/Linux 12 (bookworm)           | ZFS (mirror)        | SanDisk SDLL1HLR076TCAA1 7.68TB SAS (2-way mirror) | Run in a Docker container on TrueNAS SCALE (kernel 6.12.91-production+truenas); tested on a mounted ZFS volume (2-way SSD mirror) |
 | 2026-07-02 | AMD Ryzen 9 5950X 16 Core             | 64       | 76.8      | 61.7        | Windows 11 Pro 25H2                      | NTFS (4KB)          | Corsair MP600 PRO XT 4TB          | Windows Defender real-time (sync) scanning, folder not excluded |
 | 2026-07-02 | Intel Core i9-14900HX (24 Cores)      | 32       | 2.1       | 9.1         | Ubuntu 26.04 LTS                         | ext4                | SK hynix Platinum P41/PC801 1TB   |                                                                                                  |
-| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 31.6      | 31.3        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             |                                                                                                  |
+| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 30.4      | 34.4        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             | ~/dev added to Spotlight exclusion; negligible impact (~1s clean, install unchanged) |
 ----------------------
 
 ## What to do for now?
