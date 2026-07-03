@@ -139,6 +139,7 @@ and round to the tenths decimal place
 | 2026-03-05 | Apple M2 Pro (12 Core, 8p4e)          | 16       | 45        | 42          | macOS 26.2                               | APFS                | Apple SSD AP0512Z 500GB           |                           |
 | 2026-06-02 | Apple M1 Max                          | 64       | 46        | 51          | macOS 26.5.1                             | APFS                | APPLE SSD AP2048R 2TB             |                           |
 | 2026-07-02 | AMD Ryzen AI 7 PRO 350                | 64       | 2.4       | 8.2         | Debian GNU/Linux 13 (trixie)             | Ext4                | Samsung SSD 990 PRO 2TB           | kernel: 7.0.12+deb13-amd64 |
+| 2026-07-02 | AMD Ryzen 9 5950X 16 Core             | 64       | 76.8      | 61.7        | Windows 11 Pro 25H2                       | NTFS (4KB)          | Corsair MP600 PRO XT 4TB          | Windows Defender real-time (sync) scanning, folder not excluded |
 ----------------------
 
 ## What to do for now?
