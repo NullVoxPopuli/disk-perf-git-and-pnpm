@@ -144,6 +144,7 @@ and round to the tenths decimal place
 | 2026-07-02 | Intel Core i9-14900HX (24 Cores)      | 32       | 2.1       | 9.1         | Ubuntu 26.04 LTS                         | ext4                | SK hynix Platinum P41/PC801 1TB   |                                                                                                  |
 | 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 32.0      | 34.9        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             |                                                                                                  |
 | 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 30.4      | 34.4        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             | ~/dev Spotlight exclusion; negligible impact                                                     |
+| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 2.9       | 14.6        | Ubuntu 26.04 LTS                         | btrfs               | APPLE SSD AP1024Z 1TB             | Linux machine running in OrbStack (kernel 7.0.11-orbstack); native FS, not a mounted macOS folder |
 ----------------------
 
 ## What to do for now?
