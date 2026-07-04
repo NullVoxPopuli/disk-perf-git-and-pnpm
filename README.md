@@ -147,6 +147,10 @@ and round to the tenths decimal place
 | 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 30.4      | 34.4        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             | ~/dev Spotlight exclusion; negligible impact                                                     |
 | 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 2.9       | 14.6        | Ubuntu 26.04 LTS                         | btrfs               | APPLE SSD AP1024Z 1TB             | Linux machine running in OrbStack (kernel 7.0.11-orbstack); native FS, not a mounted macOS folder |
 | 2026-07-03 | Apple M5 Max (18 Core, 6p12e)         | 128      | 35.6      | 31.7        | macOS 26.5.1                             | APFS                | APPLE SSD AP4096Z 4TB             | ~/Source Spotlight exclusion                                                    |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 2.1       | 7.9         | Pop!_OS 22.04 LTS                        | Ext4 (LUKS)         | Micron 2300 NVMe 1024GB           | kernel: 7.0.11-76070011-generic                                                 |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.5       | 8.7         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 7.0.11-76070011-generic        |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.3       | 7.6         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo + warm pnpm store on /dev/shm; kernel: 7.0.11-76070011-generic         |
+| 2026-07-03 | AMD Ryzen 9 7945HX                    | 64       | 12.7      | 31.2        | Pop!_OS 24.04 LTS                        | Ext4                | KINGSTON SNV2S250G 250GB          | kernel: 6.17.4-76061704-generic                                                 |
 ----------------------
 
 ## What to do for now?
