@@ -151,6 +151,7 @@ and round to the tenths decimal place
 | 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.5       | 8.7         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 7.0.11-76070011-generic        |
 | 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.3       | 7.6         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo + warm pnpm store on /dev/shm; kernel: 7.0.11-76070011-generic         |
 | 2026-07-03 | AMD Ryzen 9 7945HX                    | 64       | 12.7      | 31.2        | Pop!_OS 24.04 LTS                        | Ext4                | KINGSTON SNV2S250G 250GB          | kernel: 6.17.4-76061704-generic                                                 |
+| 2026-08-12 | Apple M1                              | 8        | 6.9       | 20          | Fedora Asahi Remix 44                    | btrfs               | APPLE SSD AP0512Q 500GB           | swapped macOS entirely with Linux |
 ----------------------
 
 ## What to do for now?
@@ -161,6 +162,7 @@ If you're using macOS, and your file system performance is unbearable, there are
   - Put everything in a RAM disk: 
   - or OverlayFS via Docker 
 - use a Linux VM to get ext4 speeds
+- (M1 & M2 macs) switch to Asahi Linux :) - https://asahilinux.org/
 
 
 
