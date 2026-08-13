@@ -154,6 +154,8 @@ and round to the tenths decimal place
 | 2026-08-12 | Apple M1                              | 8        | 6.9       | 20          | Fedora Asahi Remix 44                    | btrfs               | APPLE SSD AP0512Q 500GB           | swapped macOS entirely with Linux |
 | 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 31.7      | 32.5        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight indexing enabled, no EDR |
 | 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 33.0      | 31.8        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight disabled |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 2.4       | 9.8         | Debian GNU/Linux 13 (trixie)             | ext4                | XPG GAMMIX S11 Pro 512GB          | kernel: 6.18.42-x64v3-xanmod1 |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 1.4       | 9.1         | Debian GNU/Linux 13 (trixie)             | tmpfs (ramdisk)     | G.Skill + Corsair DDR4-3600 32GB  | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 6.18.42-x64v3-xanmod1 |
 ----------------------
 
 ## What to do for now?
