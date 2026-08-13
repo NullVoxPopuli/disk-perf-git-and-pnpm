@@ -152,6 +152,10 @@ and round to the tenths decimal place
 | 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.3       | 7.6         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo + warm pnpm store on /dev/shm; kernel: 7.0.11-76070011-generic         |
 | 2026-07-03 | AMD Ryzen 9 7945HX                    | 64       | 12.7      | 31.2        | Pop!_OS 24.04 LTS                        | Ext4                | KINGSTON SNV2S250G 250GB          | kernel: 6.17.4-76061704-generic                                                 |
 | 2026-08-12 | Apple M1                              | 8        | 6.9       | 20          | Fedora Asahi Remix 44                    | btrfs               | APPLE SSD AP0512Q 500GB           | swapped macOS entirely with Linux |
+| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 31.7      | 32.5        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight indexing enabled, no EDR |
+| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 33.0      | 31.8        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight disabled |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 2.4       | 9.8         | Debian GNU/Linux 13 (trixie)             | ext4                | XPG GAMMIX S11 Pro 512GB          | kernel: 6.18.42-x64v3-xanmod1 |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 1.4       | 9.1         | Debian GNU/Linux 13 (trixie)             | tmpfs (ramdisk)     | G.Skill + Corsair DDR4-3600 32GB  | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 6.18.42-x64v3-xanmod1 |
 ----------------------
 
 ## What to do for now?
