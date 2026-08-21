@@ -159,6 +159,7 @@ and round to the tenths decimal place
 | 2026-08-21 | Apple M1 (8 Core, 4p4e)              | 16       | 2.8       | 12.3        | NixOS 26.11                              | ext4 (LUKS)         | APPLE SSD AP1024Q 1TB              | Asahi Linux; kernel: 7.1.8; Prisma 5.22 engines from Nix |
 | 2026-08-21 | AMD Ryzen 3 5300U | 16 | 35.7 | 43.9 | Fedora Linux 44 | btrfs | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
 | 2026-08-21 | AMD Ryzen 3 5300U | 16 | 8.5 | 26.5 | Fedora Linux 44 | Ext4 | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
+| 2026-08-21 | Intel Core i5-9600K (6 Core) | 64 | 5.8 | 16.2 | Linux Mint 22.1 | Ext4 | WD WDBRPG5000ANC-WRSN 500GB | kernel: 6.8.0-137-generic; node 24.13.0 / pnpm 10.2.1 |
 ----------------------
 
 ## What to do for now?
