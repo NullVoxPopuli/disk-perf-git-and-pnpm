@@ -125,40 +125,41 @@ and round to the tenths decimal place
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 32        | 53.3        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled       |
 | 2025-02-25 | Apple M3 Pro (12 Core, 6p6e)          | 36       | 26.3      | 19.9        | macOS 14.7.4                             | APFS                | APPLE SSD AP0512Z 500GB           | Spotlight disabled, `csrutil disable` |
 | 2025-02-26 | Apple M2 Max (12 Core, 8p4e)          | 32       | 41.4      | 39.8        | macOS 15.3.1                             | APFS (Encrypted)    | APPLE SSD AP1024Z 1TB             | Spotlight disabled, Kandji, SentinelOne |
-| 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM VM |
+| 2025-02-26 | Apple M4 Pro (14 Cores) (6 core vCPU) | 6        | 2.5       | 16.9        | Ubuntu 24.10                             | Ext4 Unencrypted    | APPLE SSD AP2048Z 2TB             | UTM VM                   |
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 11.9      | 15.7        | Ubuntu 24.04.2                           | Ext4 LVM2 Encrypted | APPLE SSD AP1024Z                 | Parallels VM, SentinelOne |
 | 2025-02-28 | Apple M2 Max (6 vCPU)                 | 16       | 9.1       | 13.3        | Ubuntu 24.04.2                           | tmpfs (ramdisk)     | Hynix LPDDR5 / Virtual RAM        | Parallels VM, SentinelOne |
-| 2025-04-26 | Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz | 32    | 103.98    | 116.62      | macOS 15.4.1                             | APFS (Encrypted)    | Apple SSD AP1024N                 |                           |
-| 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 64.48     | 145.40      | macOS 15.3.2                             | APFS (Encrypted)    | Apple SSD AP1024Z                 |                           |
+| 2025-04-26 | Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz | 32       | 103.98    | 116.62      | macOS 15.4.1                             | APFS (Encrypted)    | Apple SSD AP1024N                 |                          |
+| 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 64.48     | 145.40      | macOS 15.3.2                             | APFS (Encrypted)    | Apple SSD AP1024Z                 |                          |
 | 2025-04-27 | Apple M4 Pro (14 Core, 10p4e)         | 48       | 3.209     | 17.302      | Ubuntu 24.04.2                           | btrfs               | Apple SSD AP1024Z                 | Ubuntu machine running in OrbStack |
 | 2025-10-06 | Apple M2 Max (12 Core, 8p4e)          | 32       | 46.730    | 54.603      | macOS 15.5                               | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, Code42, SentinelOne, tested in excluded directory |
 | 2025-10-07 | Apple M3 Air (8 Core, 4p4e)           | 16       | 34.104    | 29.293      | macOS 15.7                               | APFS (Encrypted)    | Apple SSD AP0512Z 500GB           | Kandji, SentinelOne, tested in excluded directory |
 | 2025-10-10 | Apple M4 Pro (12p4e)                  | 64       | 42.021    | 67.776      | macOS 15.6.1                             | APFS (Encrypted)    | Apple SSD AP1024Z 1TB             | Kandji, SentinelOne, Cyberhaven, tested in excluded directory |
-| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 100       | 401         | Windows 11 25H2                          | ReFS (Dev Drive, 4KB)    | Samsung 980 PRO 2TB               | Windows Defender Async scanning, git, pnpm , folder excluded |
-| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 111       | 120         | Windows 11 25H2                          | NTFS (BitLocker, 4KB)    | Samsung 960 EVO 1TB               | Windows Defender Sync scanning, git, pnpm folder excluded |
-| 2026-03-05 | Apple M2 Pro (12 Core, 8p4e)          | 16       | 45        | 42          | macOS 26.2                               | APFS                | Apple SSD AP0512Z 500GB           |                           |
-| 2026-06-02 | Apple M1 Max                          | 64       | 46        | 51          | macOS 26.5.1                             | APFS                | APPLE SSD AP2048R 2TB             |                           |
+| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 100       | 401         | Windows 11 25H2                          | ReFS (Dev Drive, 4KB) | Samsung 980 PRO 2TB               | Windows Defender Async scanning, git, pnpm , folder excluded |
+| 2025-10-14 | AMD Ryzen 7 5800X3D                   | 64       | 111       | 120         | Windows 11 25H2                          | NTFS (BitLocker, 4KB) | Samsung 960 EVO 1TB               | Windows Defender Sync scanning, git, pnpm folder excluded |
+| 2026-03-05 | Apple M2 Pro (12 Core, 8p4e)          | 16       | 45        | 42          | macOS 26.2                               | APFS                | Apple SSD AP0512Z 500GB           |                          |
+| 2026-06-02 | Apple M1 Max                          | 64       | 46        | 51          | macOS 26.5.1                             | APFS                | APPLE SSD AP2048R 2TB             |                          |
 | 2026-07-02 | AMD Ryzen AI 7 PRO 350                | 64       | 2.4       | 8.2         | Debian GNU/Linux 13 (trixie)             | Ext4                | Samsung SSD 990 PRO 2TB           | kernel: 7.0.12+deb13-amd64 |
 | 2026-07-02 | AMD EPYC 7313P 16 Core                | 251      | 35.4      | 17.6        | Debian GNU/Linux 12 (bookworm)           | ZFS (mirror)        | SanDisk SDLL1HLR076TCAA1 7.68TB SAS (2-way mirror) | Run in a Docker container on TrueNAS SCALE (kernel 6.12.91-production+truenas); tested on a mounted ZFS volume (2-way SSD mirror) |
 | 2026-07-02 | AMD Ryzen 9 5950X 16 Core             | 64       | 76.8      | 61.7        | Windows 11 Pro 25H2                      | NTFS (4KB)          | Corsair MP600 PRO XT 4TB          | Windows Defender real-time (sync) scanning, folder not excluded |
-| 2026-07-02 | Intel Core i9-14900HX (24 Cores)      | 32       | 2.1       | 9.1         | Ubuntu 26.04 LTS                         | ext4                | SK hynix Platinum P41/PC801 1TB   |                                                                                                  |
-| 2026-07-02 | 11th Gen Intel(R) Core(TM) i7-1165G7  | 64       | 8.152     | 30.718      | Fedora Linux 44                          | btrfs               | CRUCIAL M.2 SSD P3 CT4000P3SSD8 4TB |                           |
-| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 32.0      | 34.9        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             |                                                                                                  |
-| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 30.4      | 34.4        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             | ~/dev Spotlight exclusion; negligible impact                                                     |
+| 2026-07-02 | Intel Core i9-14900HX (24 Cores)      | 32       | 2.1       | 9.1         | Ubuntu 26.04 LTS                         | ext4                | SK hynix Platinum P41/PC801 1TB   |                          |
+| 2026-07-02 | 11th Gen Intel(R) Core(TM) i7-1165G7  | 64       | 8.152     | 30.718      | Fedora Linux 44                          | btrfs               | CRUCIAL M.2 SSD P3 CT4000P3SSD8 4TB |                          |
+| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 32.0      | 34.9        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             |                          |
+| 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 30.4      | 34.4        | macOS 26.5.1                             | APFS                | APPLE SSD AP1024Z 1TB             | ~/dev Spotlight exclusion; negligible impact |
 | 2026-07-03 | Apple M5 Pro (18 Core, 6p12e)         | 48       | 2.9       | 14.6        | Ubuntu 26.04 LTS                         | btrfs               | APPLE SSD AP1024Z 1TB             | Linux machine running in OrbStack (kernel 7.0.11-orbstack); native FS, not a mounted macOS folder |
-| 2026-07-03 | Apple M5 Max (18 Core, 6p12e)         | 128      | 35.6      | 31.7        | macOS 26.5.1                             | APFS                | APPLE SSD AP4096Z 4TB             | ~/Source Spotlight exclusion                                                    |
-| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 2.1       | 7.9         | Pop!_OS 22.04 LTS                        | Ext4 (LUKS)         | Micron 2300 NVMe 1024GB           | kernel: 7.0.11-76070011-generic                                                 |
-| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.5       | 8.7         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 7.0.11-76070011-generic        |
-| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.3       | 7.6         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo + warm pnpm store on /dev/shm; kernel: 7.0.11-76070011-generic         |
-| 2026-07-03 | AMD Ryzen 9 7945HX                    | 64       | 12.7      | 31.2        | Pop!_OS 24.04 LTS                        | Ext4                | KINGSTON SNV2S250G 250GB          | kernel: 6.17.4-76061704-generic                                                 |
+| 2026-07-03 | Apple M5 Max (18 Core, 6p12e)         | 128      | 35.6      | 31.7        | macOS 26.5.1                             | APFS                | APPLE SSD AP4096Z 4TB             | ~/Source Spotlight exclusion |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 2.1       | 7.9         | Pop!_OS 22.04 LTS                        | Ext4 (LUKS)         | Micron 2300 NVMe 1024GB           | kernel: 7.0.11-76070011-generic |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.5       | 8.7         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 7.0.11-76070011-generic |
+| 2026-07-03 | AMD Ryzen 9 9950X 16 Core             | 64       | 1.3       | 7.6         | Pop!_OS 22.04 LTS                        | tmpfs (ramdisk)     | Micron 2300 NVMe 1024GB           | tmpfs repo + warm pnpm store on /dev/shm; kernel: 7.0.11-76070011-generic |
+| 2026-07-03 | AMD Ryzen 9 7945HX                    | 64       | 12.7      | 31.2        | Pop!_OS 24.04 LTS                        | Ext4                | KINGSTON SNV2S250G 250GB          | kernel: 6.17.4-76061704-generic |
 | 2026-08-12 | Apple M1                              | 8        | 6.9       | 20          | Fedora Asahi Remix 44                    | btrfs               | APPLE SSD AP0512Q 500GB           | swapped macOS entirely with Linux |
-| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 31.7      | 32.5        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight indexing enabled, no EDR |
-| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 33.0      | 31.8        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight disabled |
-| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 2.4       | 9.8         | Debian GNU/Linux 13 (trixie)             | ext4                | XPG GAMMIX S11 Pro 512GB          | kernel: 6.18.42-x64v3-xanmod1 |
-| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 1.4       | 9.1         | Debian GNU/Linux 13 (trixie)             | tmpfs (ramdisk)     | G.Skill + Corsair DDR4-3600 32GB  | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 6.18.42-x64v3-xanmod1 |
-| 2026-08-21 | Apple M1 (8 Core, 4p4e)              | 16       | 2.8       | 12.3        | NixOS 26.11                              | ext4 (LUKS)         | APPLE SSD AP1024Q 1TB              | Asahi Linux; kernel: 7.1.8; Prisma 5.22 engines from Nix |
-| 2026-08-21 | AMD Ryzen 3 5300U | 16 | 35.7 | 43.9 | Fedora Linux 44 | btrfs | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
-| 2026-08-21 | AMD Ryzen 3 5300U | 16 | 8.5 | 26.5 | Fedora Linux 44 | Ext4 | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
+| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)          | 16       | 31.7      | 32.5        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight indexing enabled, no EDR |
+| 2026-08-12 | Apple M4 Air (10 Core, 4p6e)          | 16       | 33.0      | 31.8        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight disabled       |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)     | 32       | 2.4       | 9.8         | Debian GNU/Linux 13 (trixie)             | ext4                | XPG GAMMIX S11 Pro 512GB          | kernel: 6.18.42-x64v3-xanmod1 |
+| 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)     | 32       | 1.4       | 9.1         | Debian GNU/Linux 13 (trixie)             | tmpfs (ramdisk)     | G.Skill + Corsair DDR4-3600 32GB  | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 6.18.42-x64v3-xanmod1 |
+| 2026-08-21 | Apple M1 (8 Core, 4p4e)               | 16       | 2.8       | 12.3        | NixOS 26.11                              | ext4 (LUKS)         | APPLE SSD AP1024Q 1TB             | Asahi Linux; kernel: 7.1.8; Prisma 5.22 engines from Nix |
+| 2026-08-21 | AMD Ryzen 3 5300U                     | 16       | 35.7      | 43.9        | Fedora Linux 44                          | btrfs               | SK hynix BC711 256GB              | kernel: 7.1.8-200.fc44.x86_64 |
+| 2026-08-21 | AMD Ryzen 3 5300U                     | 16       | 8.5       | 26.5        | Fedora Linux 44                          | Ext4                | SK hynix BC711 256GB              | kernel: 7.1.8-200.fc44.x86_64 |
+| 2026-08-21 | Apple M1 Pro (10 Core, 8p2e)          | 16       | 47.7      | 55.3        | macOS 26.6.2                             | APFS (Encrypted)    | APPLE SSD AP1024R 1TB            
 ----------------------
 
 ## What to do for now?
@@ -170,10 +171,3 @@ If you're using macOS, and your file system performance is unbearable, there are
   - or OverlayFS via Docker 
 - use a Linux VM to get ext4 speeds
 - (M1 & M2 macs) switch to Asahi Linux :) - https://asahilinux.org/
-
-
-
-
-
-
-
