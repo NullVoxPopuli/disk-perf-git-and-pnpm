@@ -156,6 +156,7 @@ and round to the tenths decimal place
 | 2026-08-12 | Apple M4 Air (10 Core, 4p6e)         | 16       | 33.0      | 31.8        | macOS 26.5.1                             | APFS (Encrypted)    | APPLE SSD AP0256Z 256GB           | Spotlight disabled |
 | 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 2.4       | 9.8         | Debian GNU/Linux 13 (trixie)             | ext4                | XPG GAMMIX S11 Pro 512GB          | kernel: 6.18.42-x64v3-xanmod1 |
 | 2026-08-12 | Intel Core i5-12400 (6 Core, 12T)   | 32       | 1.4       | 9.1         | Debian GNU/Linux 13 (trixie)             | tmpfs (ramdisk)     | G.Skill + Corsair DDR4-3600 32GB  | tmpfs repo (/dev/shm); pnpm store on disk; kernel: 6.18.42-x64v3-xanmod1 |
+| 2026-08-21 | Apple M1 (8 Core, 4p4e)              | 16       | 2.8       | 12.3        | NixOS 26.11                              | ext4 (LUKS)         | APPLE SSD AP1024Q 1TB              | Asahi Linux; kernel: 7.1.8; Prisma 5.22 engines from Nix |
 ----------------------
 
 ## What to do for now?
