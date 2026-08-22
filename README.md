@@ -160,6 +160,7 @@ and round to the tenths decimal place
 | 2026-08-21 | AMD Ryzen 3 5300U | 16 | 35.7 | 43.9 | Fedora Linux 44 | btrfs | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
 | 2026-08-21 | AMD Ryzen 3 5300U | 16 | 8.5 | 26.5 | Fedora Linux 44 | Ext4 | SK hynix BC711 256GB | kernel: 7.1.8-200.fc44.x86_64 |
 | 2026-08-21 | Apple M3 Pro (12 Core, 6p6e) | 18 | 42.3 | 34.1 | macOS 26.5.2 (25F84) | APFS (Encrypted) | APPLE SSD AP1024Z 1TB | Spotlight indexing enabled, no EDR; node 22.15.0 / pnpm 10.2.1 |
+| 2026-08-22 | AMD Ryzen 9 5950X 16 Core | 32 | 20.7 | 13.7 | NixOS 26.05 | ZFS | WD Black SN850X 1TB | kernel: 6.18.44 |
 ----------------------
 
 ## What to do for now?
