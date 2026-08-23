@@ -162,6 +162,7 @@ and round to the tenths decimal place
 | 2026-08-21 | Intel Core i5-9600K (6 Core)             | 64       | 5.8       | 16.2        | Linux Mint 22.1                    | Ext4                  | WD WDBRPG5000ANC-WRSN 500GB                        | kernel: 6.8.0-137-generic; node 24.13.0 / pnpm 10.2.1                                                                             |
 | 2026-08-21 | Apple M3 Pro (12 Core, 6p6e)             | 18       | 42.3      | 34.1        | macOS 26.5.2 (25F84)               | APFS (Encrypted)      | APPLE SSD AP1024Z 1TB                              | Spotlight indexing enabled, no EDR; node 22.15.0 / pnpm 10.2.1                                                                    |
 | 2026-08-22 | AMD Ryzen 9 5950X 16 Core                | 32       | 20.7      | 13.7        | NixOS 26.05                        | ZFS                   | WD Black SN850X 1TB                                | kernel: 6.18.44                                                                                                                   |
+| 2026-08-21 | Apple M1 Pro (10 Core, 8p2e)             | 16       | 47.7      | 55.3        | macOS 26.6.2                       | APFS (Encrypted)      | APPLE SSD AP1024R 1TB                              |                                                                                                                                   |
 ----------------------
 
 ## What to do for now?
@@ -173,10 +174,3 @@ If you're using macOS, and your file system performance is unbearable, there are
   - or OverlayFS via Docker 
 - use a Linux VM to get ext4 speeds
 - (M1 & M2 macs) switch to Asahi Linux :) - https://asahilinux.org/
-
-
-
-
-
-
-
