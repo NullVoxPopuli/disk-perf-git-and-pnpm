@@ -56,6 +56,13 @@ After the setup `pnpm install` has filled the pnpm store, run this from the orig
 node benchmark-worktrees.mjs
 ```
 
+To compare filesystems with forced pnpm hardlinks, put the pnpm store on the same filesystem as each checkout and run:
+
+```bash
+BENCHMARK_PNPM_STORE_DIR=/path/on/that/filesystem/pnpm-store \
+BENCHMARK_PNPM_IMPORT_METHOD=hardlink node benchmark-worktrees.mjs
+```
+
 The script creates **five fresh worktrees** at the same commit in a temporary directory next to the checkout. It times each creation, installs dependencies in each worktree with `pnpm install --offline --frozen-lockfile`, then times each removal with `git worktree remove --force`. The five worktrees remain present until all five installs finish, so the storage figures show their combined footprint. The script removes its temporary worktrees after the run, including if a command fails. It does not remove the original checkout.
 
 The output includes individual and five-worktree total times, directory sizes before and after install, the change in free disk space at each phase, and growth of the pnpm store. The directory sizes reported by `du` can count shared or hard-linked pnpm files more than once; use the free-space change for an estimate of physical disk consumption. Free-space measurements can also vary if other programs write to the disk during the run. If the pnpm store is on a different filesystem, its size change is reported separately.

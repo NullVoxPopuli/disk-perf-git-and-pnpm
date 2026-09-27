@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 
 import { spawnSync } from 'node:child_process';
-import { existsSync, mkdtempSync, rmdirSync, statfsSync } from 'node:fs';
+import { existsSync, mkdtempSync, rmdirSync, statfsSync, statSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { performance } from 'node:perf_hooks';
 
 const worktreeCount = 5;
 const repo = dirname(fileURLToPath(import.meta.url));
+const configuredStore = process.env.BENCHMARK_PNPM_STORE_DIR;
+const importMethod = process.env.BENCHMARK_PNPM_IMPORT_METHOD;
+const storeOptions = configuredStore ? ['--store-dir', resolve(configuredStore)] : [];
+const importOptions = importMethod ? ['--package-import-method', importMethod] : [];
 const activeWorktrees = new Set();
 const results = [];
 let benchmarkDir;
@@ -93,13 +97,18 @@ try {
   }
 
   const commit = command('git', ['rev-parse', 'HEAD'], { capture: true });
-  const store = command('pnpm', ['store', 'path'], { capture: true });
+  const store = command('pnpm', [...storeOptions, 'store', 'path'], { capture: true });
   benchmarkDir = mkdtempSync(join(dirname(repo), 'disk-perf-worktrees-'));
+  if (importMethod === 'hardlink' && statSync(benchmarkDir).dev !== statSync(store).dev) {
+    throw new Error('Hardlink mode requires the pnpm store and worktrees to be on the same filesystem.');
+  }
   const freeBefore = freeBytes(benchmarkDir);
   const storeBeforeKiB = sizeKiB(store);
 
   console.log(`Benchmarking ${worktreeCount} worktrees from ${commit}`);
   console.log(`Temporary worktrees: ${benchmarkDir}`);
+  console.log(`pnpm store: ${store}`);
+  console.log(`pnpm import method: ${importMethod || 'auto'}`);
 
   for (let index = 1; index <= worktreeCount; index++) {
     const worktree = join(benchmarkDir, String(index));
@@ -115,7 +124,7 @@ try {
 
   for (const result of results) {
     console.log(`\nInstalling in worktree ${result.index}/${worktreeCount}`);
-    result.installSeconds = timed('pnpm', ['install', '--offline', '--frozen-lockfile'], {
+    result.installSeconds = timed('pnpm', ['install', '--offline', '--frozen-lockfile', ...storeOptions, ...importOptions], {
       cwd: result.worktree,
     });
   }
