@@ -48,6 +48,34 @@ Windows Powershell:
 (Measure-Command { pnpm install }).ToString()
 ```
 
+### Five-worktree benchmark
+
+After the setup `pnpm install` has filled the pnpm store, run this from the original checkout on macOS or Linux (including WSL):
+
+```bash
+node benchmark-worktrees.mjs
+```
+
+To compare filesystems with forced pnpm hardlinks, put the pnpm store on the same filesystem as each checkout and run:
+
+```bash
+BENCHMARK_PNPM_STORE_DIR=/path/on/that/filesystem/pnpm-store \
+BENCHMARK_PNPM_IMPORT_METHOD=hardlink node benchmark-worktrees.mjs
+```
+
+The script creates **five fresh worktrees** at the same commit in a temporary directory next to the checkout. It times each creation, installs dependencies in each worktree with `pnpm install --offline --frozen-lockfile`, then times each removal with `git worktree remove --force`. The five worktrees remain present until all five installs finish, so the storage figures show their combined footprint. The script removes its temporary worktrees after the run, including if a command fails. It does not remove the original checkout.
+
+The output includes individual and five-worktree total times, directory sizes before and after install, the change in free disk space at each phase, and growth of the pnpm store. The directory sizes reported by `du` can count shared or hard-linked pnpm files more than once. The free-space change shows allocation on the mounted filesystem; with a layer such as VDO underneath it, this does not measure the layer's physical storage consumption. Free-space measurements can also vary if other programs write to the disk during the run. If the pnpm store is on a different filesystem, its size change is reported separately.
+
+Please report the **five-worktree totals**, not a single-worktree time, in this separate table. Add the individual results or the full script output in your PR if you want to show variation between worktrees.
+
+| Date | CPU | RAM (GB) | OS | FileSystem | Disk | 5 creates (s) | 5 installs (s) | 5 removals (s) | Fresh size (MiB) | Installed size (MiB) | Disk used after installs (GiB) | Disk reclaimed (GiB) | Net disk used (GiB) | Store growth (MiB) | Notable Software Changes |
+|------|-----|----------|----|------------|------|--------------:|---------------:|---------------:|-----------------:|---------------------:|---------------------:|---------------------:|--------------------:|-------------------:|--------------------------|
+| 2026-09-28 | Intel Core i5-13420H | 16 | Fedora Linux 44 | ext4 | WD PC SN740 NVMe | 0.21 | 99.54 | 15.21 | 72.8 | 12943.8 | 2.72 | 2.72 | 0.00 | 0.0 | Mean of 2 runs; forced hardlinks; warm local pnpm store |
+| 2026-09-28 | Intel Core i5-13420H | 16 | Fedora Linux 44 | XFS on VDO | WD PC SN740 NVMe | 0.22 | 96.65 | 28.25 | 68.1 | 13640.4 | 1.21 | 1.21 | 0.00 | 0.0 | Mean of 2 runs; forced hardlinks; warm local pnpm store; disk use is XFS logical allocation |
+
+The old clean/install result table below remains a separate benchmark; its existing numbers are not five-worktree results.
+
 <details><summary>If using zsh</summary>
   
 your time will be `total`.
