@@ -164,6 +164,7 @@ and round to the tenths decimal place
 | 2026-08-22 | AMD Ryzen 9 5950X 16 Core                | 32       | 20.7      | 13.7        | NixOS 26.05                        | ZFS                   | WD Black SN850X 1TB                                | kernel: 6.18.44                                                                                                                   |
 | 2026-08-21 | Apple M1 Pro (10 Core, 8p2e)             | 16       | 47.7      | 55.3        | macOS 26.6.2                       | APFS (Encrypted)      | APPLE SSD AP1024R 1TB                              |                                                                                                                                   |
 | 2026-10-13 | Intel Core Ultra 7 258V (8 threads)      | 30       | 5.1       | 19.1        | Omarchy (Arch-based, kernel 7.2.5) | btrfs                 | KIOXIA KBG60ZNS1T02 1TB NVMe                       | median of 4 runs                                                                                                                  |
+| 2026-10-22 | Intel Core i7-14790F | 64 | 22.5 | 23.0 | macOS 15.8.1 | APFS | INTEL Optane 905p 480G | 5-run mean; Spotlight enabled; SIP custom configuration
 ----------------------
 
 ## What to do for now?
