@@ -1,2 +1,32 @@
 packages:
-- frameworks/*
+  - frameworks/*
+
+# It's possible that for those who did not have a global
+# ignore-scripts=true on their machine, their stats
+# may have been skewed by thees things building
+allowBuilds:
+  "@parcel/watcher": false
+  "@prisma/client": false
+  "@prisma/engines": false
+  "@swc/core": false
+  core-js: false
+  core-js-pure: false
+  es5-ext: false
+  esbuild: false
+  gatsby: false
+  gatsby-cli: false
+  lmdb: false
+  msgpackr-extract: false
+  prisma: false
+  sharp: false
+  vue-demi: false
+
+autoInstallPeers: false
+
+# Each folder gets its own lockfile and set of dependencies.
+# No sharing!
+sharedWorkspaceLockfile: false
+
+# Don't fail the install on unreviewed postinstall scripts; just skip them.
+# These projects only need to be installed, not run.
+strictDepBuilds: false

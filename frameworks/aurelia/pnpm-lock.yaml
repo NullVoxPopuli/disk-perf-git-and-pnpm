@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -10,35 +10,35 @@ importers:
     dependencies:
       '@aurelia/router':
         specifier: latest
-        version: 2.0.0-beta.23
+        version: 2.0.0-rc.2
       aurelia:
         specifier: latest
-        version: 2.0.0-beta.23
+        version: 2.0.0-rc.2
     devDependencies:
       '@aurelia/testing':
         specifier: latest
-        version: 2.0.0-beta.23
+        version: 2.0.0-rc.2
       '@aurelia/vite-plugin':
         specifier: latest
-        version: 2.0.0-beta.23(@types/node@22.13.1)
+        version: 2.0.0-rc.2(vite@6.1.0(@types/node@22.13.1))
       '@types/node':
         specifier: ^22.10.2
         version: 22.13.1
       eslint:
         specifier: ^9.17.0
-        version: 9.20.0
+        version: 9.20.0(supports-color@7.2.0)
       globals:
         specifier: ^15.14.0
         version: 15.14.0
       jsdom:
         specifier: ^25.0.1
-        version: 25.0.1
+        version: 25.0.1(supports-color@7.2.0)
       stylelint:
         specifier: ^16.12.0
-        version: 16.14.1(typescript@5.7.3)
+        version: 16.14.1(supports-color@7.2.0)(typescript@5.7.3)
       stylelint-config-standard:
         specifier: ^36.0.1
-        version: 36.0.1(stylelint@16.14.1(typescript@5.7.3))
+        version: 36.0.1(stylelint@16.14.1(supports-color@7.2.0)(typescript@5.7.3))
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -47,7 +47,7 @@ importers:
         version: 5.7.3
       typescript-eslint:
         specifier: ^8.18.1
-        version: 8.23.0(eslint@9.20.0)(typescript@5.7.3)
+        version: 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
       vite:
         specifier: ^6.0.3
         version: 6.1.0(@types/node@22.13.1)
@@ -56,68 +56,70 @@ importers:
         version: 0.22.0(vite@6.1.0(@types/node@22.13.1))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.9(@types/node@22.13.1)(jsdom@25.0.1)
+        version: 2.1.9(@types/node@22.13.1)(jsdom@25.0.1(supports-color@7.2.0))(supports-color@7.2.0)
 
 packages:
 
   '@asamuzakjp/css-color@2.8.3':
     resolution: {integrity: sha512-GIc76d9UI1hCvOATjZPyHFmE5qhRccp3/zGfMPapK3jBi+yocEzp6BBB0UnfRYP9NP4FANqUZYb0hnfs3TM3hw==}
 
-  '@aurelia/expression-parser@2.0.0-beta.23':
-    resolution: {integrity: sha512-/vY9Wag+TiOSu6qYlt+5PSUSt8N2TYS7qS09ihi+zgJld+KKYeJN+0/VgDKxDgIVXG/sQM9ZvAwUf4EhJVVk3Q==}
+  '@aurelia/expression-parser@2.0.0-rc.2':
+    resolution: {integrity: sha512-z3zKwDlnnkNwIcs4i/bRtfvnL2C6nlZBXf9Gt1JDDdeA+XYGXOC6b1+A7EzHM4GK54ZCiqwZMB9MYwnlLT0M9Q==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/fetch-client@2.0.0-beta.23':
-    resolution: {integrity: sha512-eT5THfL6dL2y4B7wgK0JXDXXyfy9K/o3/OhsX117nNJMv4LI3SUlQ5dAtjuHXrE8U3GK5kOGHT4GuQj1GpnPVA==}
+  '@aurelia/fetch-client@2.0.0-rc.2':
+    resolution: {integrity: sha512-ieiqMs7xs24geXNzTkZRt2x/dsYJUxTihnY+RpiZAZbxQrkOVPKDWncj6+h67nT2RH3CgozZrKbaig3tJ/HAGw==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/kernel@2.0.0-beta.23':
-    resolution: {integrity: sha512-JwaMfoPPIRZ+QxZMU61zBgVkcvTYHnp6UjxApiMIdS/KaJ6KRu4hhWHhRkSPHN4XsslT9HkNeUjumoZ9hPA9AA==}
+  '@aurelia/kernel@2.0.0-rc.2':
+    resolution: {integrity: sha512-2RHXI3RqjT4FBS+QdqqhOL4K1K9KiyBtpykKDJEPm2xjy54y8Ub93FK/RUHwWqZGHrH4yVS6dESlfhWKt3I5ow==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/metadata@2.0.0-beta.23':
-    resolution: {integrity: sha512-CkZ7Dc45Bj9Bq+pW1okRS3fSOkGot1TrHQr6kQfwH3uguphQhY4qxYp5lMEbXgNwLagLX6D/VGn3IdIqRWya+Q==}
+  '@aurelia/metadata@2.0.0-rc.2':
+    resolution: {integrity: sha512-GUyjpzEO8tJcPsmygjB2MvjBR4Wl9eO8spVOwypYIDUI1d3MCoBy48dv+sT+Te/WL29bJPaIRkGI8bnnKI36cg==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/platform-browser@2.0.0-beta.23':
-    resolution: {integrity: sha512-XzAoYxat+qyg486fpIy9PP4Rzu492+7mYxFPzLwdHZTVkJX5jGhxtIDLRaCnrqLZc2bmWZiDUrUJEF1/hSdAXQ==}
+  '@aurelia/platform-browser@2.0.0-rc.2':
+    resolution: {integrity: sha512-Bb1HFBc3wRqSxT7NkoHEii8vfDuX4uofRejawNKadQ5UT7NCNq7ffw9vOeAbnIwNjXtyfsEZH1ix9hMqMOfUPA==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/platform@2.0.0-beta.23':
-    resolution: {integrity: sha512-U8LDNxIOa9qOiqdoaieT7mACjUYAW7Ek/9qpkklZR4fD+wnElJKcNmTj6AY16S7sCPXvgS+YCk1FwubK9Dhbng==}
+  '@aurelia/platform@2.0.0-rc.2':
+    resolution: {integrity: sha512-FzZ48bBlu5XVP3Q83fi39svbDeigPOIJAcvq6fw/ZvvbCV183R0cmupJj5Pl/9mgYnMEQjp+2mOyQOY/xMW7Kg==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/plugin-conventions@2.0.0-beta.23':
-    resolution: {integrity: sha512-RqGZzHdI//rqbkYa6Z665nxIy3Z2Q68GSqPpugEI8WuxisIiXc/xNez84HGygfDecneGtMvd2U5sCEhi/YwEvQ==}
+  '@aurelia/plugin-conventions@2.0.0-rc.2':
+    resolution: {integrity: sha512-Pzc907LcRz52FTDCG12fdD/25K0i7RjPA+VxhOF331QWWME6afF59UMBqQknnOt3LmVw3OmoN3b0pv+SSOxPOw==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/route-recognizer@2.0.0-beta.23':
-    resolution: {integrity: sha512-hCjaTgiUoBIxsOMojXuNXUKMA6QZUkXMJ/fi2Q+zjV1hIQJNA2Of1Blzyd9VVupZyXjiwLnYN9O021o6YPfqzQ==}
+  '@aurelia/route-recognizer@2.0.0-rc.2':
+    resolution: {integrity: sha512-hr7gtR5D/sdNdDzIG0uGxSTitVIOIk/yASL4NN+q4aRz5OfDvalMJ1yRfL6i6N6w8afuxJ6FY/hznMLeuB9lCA==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/router@2.0.0-beta.23':
-    resolution: {integrity: sha512-/ywmRbuZbtaRRhtxj+czfit/RowkElrgyoZ+ueiw/n4YSq0ZM4tYfhzvOSju+9WG6ivW0YEjLCsG/KGwsSUI/Q==}
+  '@aurelia/router@2.0.0-rc.2':
+    resolution: {integrity: sha512-J8rv4rYWY94EDq2+qa9vWDdRm9/0b4QlsCyJenk65/SWPJzwuT0KPwm0AiMJIxXFjkwapyBLqEDub8TxOxmPkg==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/runtime-html@2.0.0-beta.23':
-    resolution: {integrity: sha512-zvupIX1k5SngNf5VbrQcWDTQ8yMLXDwmuMQXu2oE1fCqvRKjJG1LsZvUnE82Zbi7Ioxn8SA2nYqgicdwgLwvMQ==}
+  '@aurelia/runtime-html@2.0.0-rc.2':
+    resolution: {integrity: sha512-bk/N9Eli5/MbKRL3RsqmiPFQCvkChMzITfXZD7AgVjjvMidZWEenLdIoU19sjBku7Yvbw953VAsLDCqtMFL7ZA==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/runtime@2.0.0-beta.23':
-    resolution: {integrity: sha512-8rdeJbm3xitEVNcorc7ynvdEReUhMro6AuKMQ9wN4mCgMls19C6FfMyvcCz93gIMjHaceqfyf5wYsK0pYAnwBA==}
+  '@aurelia/runtime@2.0.0-rc.2':
+    resolution: {integrity: sha512-StIZ8C1hNnV4WWQjm9rV4SgSwFb3A2J3PqCT1D/ksuDs9Hiy4BRicXy/E2yvfZXNtQR/miPiaPbC38VS8cStaA==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/template-compiler@2.0.0-beta.23':
-    resolution: {integrity: sha512-GljgSJfI5ObbB+pyJldB+oyDxofczg+Vq0ofIq87KEoT+nD0RqToqz9lak+DBWyqYfxEg4xkENncuO9EkSfQxg==}
+  '@aurelia/template-compiler@2.0.0-rc.2':
+    resolution: {integrity: sha512-ukorCLxl/tm1f0i5atq32GHuqfr7zds4koyBucxw1thuq9GNjAJe4Qmq3GxM535h+FVsC3xD+DVfmOmgJ2eG0Q==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/testing@2.0.0-beta.23':
-    resolution: {integrity: sha512-6fOGg7qIsEjj2vosJwUqF5Whgqri3u1gTDHfeomM1ln+GJ9TcCbAgDm6ehrRFySsPrQAvRmnzLIM69yg31Hxug==}
+  '@aurelia/testing@2.0.0-rc.2':
+    resolution: {integrity: sha512-d2sYkhAuOKx+j9EjiZhJo8xgBxgxawugIG8HB5AboxUYIe2fD4OCYoNnXTKU8zLkInuuDXzmVLuDRZJe/Eu/mA==}
     engines: {node: '>=20.16.0'}
 
-  '@aurelia/vite-plugin@2.0.0-beta.23':
-    resolution: {integrity: sha512-d9g9pib5hjjKBh1ni53boYrjDbQHPvaps3N9wralvahn3+w5yo7yeFLamfssrLUMRuSyDGpVwOn3HrtJv42CUQ==}
+  '@aurelia/vite-plugin@2.0.0-rc.2':
+    resolution: {integrity: sha512-MCcqz5wwzEw0NSHw3U2UOUaqUEQXbmujgpunbPz+wlXuvfH+aLf4OLm9AOoo3kDTz0cdDlAgJJps468kVmZ/cQ==}
     engines: {node: '>=20.16.0'}
+    peerDependencies:
+      vite: ^7.0.2 || ^8.0.0
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -657,6 +659,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@swc/helpers@0.5.23':
+    resolution: {integrity: sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==}
+
+  '@swc/wasm@1.15.47':
+    resolution: {integrity: sha512-AdcxrBWz13mPnXxzxr5Lkxkgknwi0fAaArdehpYENB/iIds+WEWVcof3FJKfYAPP7TOeCsaSTKFTSsP3/YX7iw==}
+
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
@@ -712,6 +720,10 @@ packages:
   '@typescript-eslint/visitor-keys@8.23.0':
     resolution: {integrity: sha512-oWWhcWDLwDfu++BGTZcmXWqpwtkwb5o7fxUIGksMQQDSdPW9prsSnfIOZMlsj4vBOSrcnjIUZMiIjODgGosFhQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@typescript/typescript6@6.0.2':
+    resolution: {integrity: sha512-mbCddXd+jm7hfx7w2YU64/Av4/NqqeG3GoRZgxPcgoTxYjhrcfJRw9ULch71SS4G+Q3bOXFhRvPqjguN0Hyp5w==}
+    hasBin: true
 
   '@vitest/expect@2.1.9':
     resolution: {integrity: sha512-UJCIkTBenHeKT1TTlKMJWy1laZewsRIzYighyYiJKZreqtdxSos/S1t+ktRMQWu2CKqaarrkeszJx1cgC5tGZw==}
@@ -794,8 +806,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  aurelia@2.0.0-beta.23:
-    resolution: {integrity: sha512-5YeacFF3e+QSTW9MzogpxOKbwTuOKA54tykQRqmuOPw5l9qZy/22NVwKvrR3AmX7H1BdtkR/pEVfH9u6/x9D5g==}
+  aurelia@2.0.0-rc.2:
+    resolution: {integrity: sha512-jz6nFiF3RD2RKXpwFnkkv/eWGy/BEtpANNN4YJ/Lxgzo7kLOWrQ3wt1AyrVyMhwq9966NcbqCwwOnY9LCLJJcg==}
     engines: {node: '>=20.16.0'}
 
   available-typed-arrays@1.0.7:
@@ -1097,6 +1109,7 @@ packages:
   eslint@9.20.0:
     resolution: {integrity: sha512-aL4F8167Hg4IvsW89ejnpTwx+B/UQRzJPGgbIOl+4XqffWsahVVsLEWoZvnrVuwpWmnRd7XeXmQI1zlKcFDteA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1212,6 +1225,9 @@ packages:
   get-proto@1.0.1:
     resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
     engines: {node: '>= 0.4'}
+
+  get-tsconfig@4.14.0:
+    resolution: {integrity: sha512-yTb+8DXzDREzgvYmh6s9vHsSVCHeC0G3PI5bEXNBHtmshPnO+S5O7qgLEOn0I5QvMy6kpZN8K1NKGyilLb93wA==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -1723,6 +1739,9 @@ packages:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
 
+  resolve-pkg-maps@1.0.0:
+    resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
+
   resolve@1.22.10:
     resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
     engines: {node: '>= 0.4'}
@@ -1967,6 +1986,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
@@ -2175,107 +2199,103 @@ snapshots:
       '@csstools/css-tokenizer': 3.0.3
       lru-cache: 10.4.3
 
-  '@aurelia/expression-parser@2.0.0-beta.23':
+  '@aurelia/expression-parser@2.0.0-rc.2':
     dependencies:
-      '@aurelia/kernel': 2.0.0-beta.23
+      '@aurelia/kernel': 2.0.0-rc.2
 
-  '@aurelia/fetch-client@2.0.0-beta.23':
+  '@aurelia/fetch-client@2.0.0-rc.2':
     dependencies:
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
 
-  '@aurelia/kernel@2.0.0-beta.23':
+  '@aurelia/kernel@2.0.0-rc.2':
     dependencies:
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
 
-  '@aurelia/metadata@2.0.0-beta.23': {}
+  '@aurelia/metadata@2.0.0-rc.2': {}
 
-  '@aurelia/platform-browser@2.0.0-beta.23':
+  '@aurelia/platform-browser@2.0.0-rc.2':
     dependencies:
-      '@aurelia/platform': 2.0.0-beta.23
+      '@aurelia/platform': 2.0.0-rc.2
 
-  '@aurelia/platform@2.0.0-beta.23': {}
+  '@aurelia/platform@2.0.0-rc.2': {}
 
-  '@aurelia/plugin-conventions@2.0.0-beta.23':
+  '@aurelia/plugin-conventions@2.0.0-rc.2':
     dependencies:
-      '@aurelia/expression-parser': 2.0.0-beta.23
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
-      '@aurelia/runtime-html': 2.0.0-beta.23
-      '@aurelia/template-compiler': 2.0.0-beta.23
+      '@aurelia/expression-parser': 2.0.0-rc.2
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
+      '@aurelia/runtime-html': 2.0.0-rc.2
+      '@aurelia/template-compiler': 2.0.0-rc.2
+      '@typescript/typescript6': 6.0.2
       modify-code: 2.1.4
       parse5: 7.2.1
-      typescript: 5.7.3
 
-  '@aurelia/route-recognizer@2.0.0-beta.23': {}
-
-  '@aurelia/router@2.0.0-beta.23':
+  '@aurelia/route-recognizer@2.0.0-rc.2':
     dependencies:
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/platform-browser': 2.0.0-beta.23
-      '@aurelia/route-recognizer': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
-      '@aurelia/runtime-html': 2.0.0-beta.23
-      '@aurelia/template-compiler': 2.0.0-beta.23
+      '@aurelia/kernel': 2.0.0-rc.2
 
-  '@aurelia/runtime-html@2.0.0-beta.23':
+  '@aurelia/router@2.0.0-rc.2':
     dependencies:
-      '@aurelia/expression-parser': 2.0.0-beta.23
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/platform-browser': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
-      '@aurelia/template-compiler': 2.0.0-beta.23
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/platform-browser': 2.0.0-rc.2
+      '@aurelia/route-recognizer': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
+      '@aurelia/runtime-html': 2.0.0-rc.2
 
-  '@aurelia/runtime@2.0.0-beta.23':
+  '@aurelia/runtime-html@2.0.0-rc.2':
     dependencies:
-      '@aurelia/expression-parser': 2.0.0-beta.23
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
+      '@aurelia/expression-parser': 2.0.0-rc.2
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/platform-browser': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
+      '@aurelia/template-compiler': 2.0.0-rc.2
 
-  '@aurelia/template-compiler@2.0.0-beta.23':
+  '@aurelia/runtime@2.0.0-rc.2':
     dependencies:
-      '@aurelia/expression-parser': 2.0.0-beta.23
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
+      '@aurelia/expression-parser': 2.0.0-rc.2
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
 
-  '@aurelia/testing@2.0.0-beta.23':
+  '@aurelia/template-compiler@2.0.0-rc.2':
     dependencies:
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/platform-browser': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
-      '@aurelia/runtime-html': 2.0.0-beta.23
-      '@aurelia/template-compiler': 2.0.0-beta.23
+      '@aurelia/expression-parser': 2.0.0-rc.2
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
 
-  '@aurelia/vite-plugin@2.0.0-beta.23(@types/node@22.13.1)':
+  '@aurelia/testing@2.0.0-rc.2':
     dependencies:
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/plugin-conventions': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/platform-browser': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
+      '@aurelia/runtime-html': 2.0.0-rc.2
+      '@aurelia/template-compiler': 2.0.0-rc.2
+
+  '@aurelia/vite-plugin@2.0.0-rc.2(vite@6.1.0(@types/node@22.13.1))':
+    dependencies:
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/plugin-conventions': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
       '@rollup/pluginutils': 5.0.2
+      '@swc/helpers': 0.5.23
+      '@swc/wasm': 1.15.47
+      get-tsconfig: 4.14.0
       loader-utils: 2.0.4
-      vite: 5.4.14(@types/node@22.13.1)
+      vite: 6.1.0(@types/node@22.13.1)
     transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
       - rollup
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - terser
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -2460,17 +2480,17 @@ snapshots:
   '@esbuild/win32-x64@0.24.2':
     optional: true
 
-  '@eslint-community/eslint-utils@4.4.1(eslint@9.20.0)':
+  '@eslint-community/eslint-utils@4.4.1(eslint@9.20.0(supports-color@7.2.0))':
     dependencies:
-      eslint: 9.20.0
+      eslint: 9.20.0(supports-color@7.2.0)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/config-array@0.19.2':
+  '@eslint/config-array@0.19.2(supports-color@7.2.0)':
     dependencies:
       '@eslint/object-schema': 2.1.6
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -2483,10 +2503,10 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/eslintrc@3.2.0':
+  '@eslint/eslintrc@3.2.0(supports-color@7.2.0)':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       espree: 10.3.0
       globals: 14.0.0
       ignore: 5.3.2
@@ -2612,6 +2632,12 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.34.6':
     optional: true
 
+  '@swc/helpers@0.5.23':
+    dependencies:
+      tslib: 2.8.1
+
+  '@swc/wasm@1.15.47': {}
+
   '@types/estree@1.0.6': {}
 
   '@types/json-schema@7.0.15': {}
@@ -2620,15 +2646,15 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@typescript-eslint/eslint-plugin@8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.20.0)(typescript@5.7.3))(eslint@9.20.0)(typescript@5.7.3)':
+  '@typescript-eslint/eslint-plugin@8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3))(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.1
-      '@typescript-eslint/parser': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
+      '@typescript-eslint/parser': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
       '@typescript-eslint/scope-manager': 8.23.0
-      '@typescript-eslint/type-utils': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
-      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
+      '@typescript-eslint/type-utils': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 8.23.0
-      eslint: 9.20.0
+      eslint: 9.20.0(supports-color@7.2.0)
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare: 1.4.0
@@ -2637,14 +2663,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.23.0(eslint@9.20.0)(typescript@5.7.3)':
+  '@typescript-eslint/parser@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.23.0
       '@typescript-eslint/types': 8.23.0
-      '@typescript-eslint/typescript-estree': 8.23.0(typescript@5.7.3)
+      '@typescript-eslint/typescript-estree': 8.23.0(supports-color@7.2.0)(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 8.23.0
-      debug: 4.4.0
-      eslint: 9.20.0
+      debug: 4.4.0(supports-color@7.2.0)
+      eslint: 9.20.0(supports-color@7.2.0)
       typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
@@ -2654,12 +2680,12 @@ snapshots:
       '@typescript-eslint/types': 8.23.0
       '@typescript-eslint/visitor-keys': 8.23.0
 
-  '@typescript-eslint/type-utils@8.23.0(eslint@9.20.0)(typescript@5.7.3)':
+  '@typescript-eslint/type-utils@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)':
     dependencies:
-      '@typescript-eslint/typescript-estree': 8.23.0(typescript@5.7.3)
-      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
-      debug: 4.4.0
-      eslint: 9.20.0
+      '@typescript-eslint/typescript-estree': 8.23.0(supports-color@7.2.0)(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
+      debug: 4.4.0(supports-color@7.2.0)
+      eslint: 9.20.0(supports-color@7.2.0)
       ts-api-utils: 2.0.1(typescript@5.7.3)
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -2667,11 +2693,11 @@ snapshots:
 
   '@typescript-eslint/types@8.23.0': {}
 
-  '@typescript-eslint/typescript-estree@8.23.0(typescript@5.7.3)':
+  '@typescript-eslint/typescript-estree@8.23.0(supports-color@7.2.0)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/types': 8.23.0
       '@typescript-eslint/visitor-keys': 8.23.0
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -2681,13 +2707,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.23.0(eslint@9.20.0)(typescript@5.7.3)':
+  '@typescript-eslint/utils@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.4.1(eslint@9.20.0)
+      '@eslint-community/eslint-utils': 4.4.1(eslint@9.20.0(supports-color@7.2.0))
       '@typescript-eslint/scope-manager': 8.23.0
       '@typescript-eslint/types': 8.23.0
-      '@typescript-eslint/typescript-estree': 8.23.0(typescript@5.7.3)
-      eslint: 9.20.0
+      '@typescript-eslint/typescript-estree': 8.23.0(supports-color@7.2.0)(typescript@5.7.3)
+      eslint: 9.20.0(supports-color@7.2.0)
       typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
@@ -2696,6 +2722,10 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.23.0
       eslint-visitor-keys: 4.2.0
+
+  '@typescript/typescript6@6.0.2':
+    dependencies:
+      '@typescript/old': typescript@6.0.3
 
   '@vitest/expect@2.1.9':
     dependencies:
@@ -2789,17 +2819,17 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  aurelia@2.0.0-beta.23:
+  aurelia@2.0.0-rc.2:
     dependencies:
-      '@aurelia/expression-parser': 2.0.0-beta.23
-      '@aurelia/fetch-client': 2.0.0-beta.23
-      '@aurelia/kernel': 2.0.0-beta.23
-      '@aurelia/metadata': 2.0.0-beta.23
-      '@aurelia/platform': 2.0.0-beta.23
-      '@aurelia/platform-browser': 2.0.0-beta.23
-      '@aurelia/runtime': 2.0.0-beta.23
-      '@aurelia/runtime-html': 2.0.0-beta.23
-      '@aurelia/template-compiler': 2.0.0-beta.23
+      '@aurelia/expression-parser': 2.0.0-rc.2
+      '@aurelia/fetch-client': 2.0.0-rc.2
+      '@aurelia/kernel': 2.0.0-rc.2
+      '@aurelia/metadata': 2.0.0-rc.2
+      '@aurelia/platform': 2.0.0-rc.2
+      '@aurelia/platform-browser': 2.0.0-rc.2
+      '@aurelia/runtime': 2.0.0-rc.2
+      '@aurelia/runtime-html': 2.0.0-rc.2
+      '@aurelia/template-compiler': 2.0.0-rc.2
 
   available-typed-arrays@1.0.7:
     dependencies:
@@ -3034,9 +3064,11 @@ snapshots:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.1.0
 
-  debug@4.4.0:
+  debug@4.4.0(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decimal.js@10.5.0: {}
 
@@ -3178,13 +3210,13 @@ snapshots:
 
   eslint-visitor-keys@4.2.0: {}
 
-  eslint@9.20.0:
+  eslint@9.20.0(supports-color@7.2.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.4.1(eslint@9.20.0)
+      '@eslint-community/eslint-utils': 4.4.1(eslint@9.20.0(supports-color@7.2.0))
       '@eslint-community/regexpp': 4.12.1
-      '@eslint/config-array': 0.19.2
+      '@eslint/config-array': 0.19.2(supports-color@7.2.0)
       '@eslint/core': 0.11.0
-      '@eslint/eslintrc': 3.2.0
+      '@eslint/eslintrc': 3.2.0(supports-color@7.2.0)
       '@eslint/js': 9.20.0
       '@eslint/plugin-kit': 0.2.5
       '@humanfs/node': 0.16.6
@@ -3195,7 +3227,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       escape-string-regexp: 4.0.0
       eslint-scope: 8.2.0
       eslint-visitor-keys: 4.2.0
@@ -3335,6 +3367,10 @@ snapshots:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
 
+  get-tsconfig@4.14.0:
+    dependencies:
+      resolve-pkg-maps: 1.0.0
+
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -3412,19 +3448,19 @@ snapshots:
 
   html-tags@3.3.1: {}
 
-  http-proxy-agent@7.0.2:
+  http-proxy-agent@7.0.2(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
   https-browserify@1.0.0: {}
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3511,15 +3547,15 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsdom@25.0.1:
+  jsdom@25.0.1(supports-color@7.2.0):
     dependencies:
       cssstyle: 4.2.1
       data-urls: 5.0.0
       decimal.js: 10.5.0
       form-data: 4.0.1
       html-encoding-sniffer: 4.0.0
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       is-potential-custom-element-name: 1.0.1
       nwsapi: 2.2.16
       parse5: 7.2.1
@@ -3854,6 +3890,8 @@ snapshots:
 
   resolve-from@5.0.0: {}
 
+  resolve-pkg-maps@1.0.0: {}
+
   resolve@1.22.10:
     dependencies:
       is-core-module: 2.16.1
@@ -4020,16 +4058,16 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stylelint-config-recommended@14.0.1(stylelint@16.14.1(typescript@5.7.3)):
+  stylelint-config-recommended@14.0.1(stylelint@16.14.1(supports-color@7.2.0)(typescript@5.7.3)):
     dependencies:
-      stylelint: 16.14.1(typescript@5.7.3)
+      stylelint: 16.14.1(supports-color@7.2.0)(typescript@5.7.3)
 
-  stylelint-config-standard@36.0.1(stylelint@16.14.1(typescript@5.7.3)):
+  stylelint-config-standard@36.0.1(stylelint@16.14.1(supports-color@7.2.0)(typescript@5.7.3)):
     dependencies:
-      stylelint: 16.14.1(typescript@5.7.3)
-      stylelint-config-recommended: 14.0.1(stylelint@16.14.1(typescript@5.7.3))
+      stylelint: 16.14.1(supports-color@7.2.0)(typescript@5.7.3)
+      stylelint-config-recommended: 14.0.1(stylelint@16.14.1(supports-color@7.2.0)(typescript@5.7.3))
 
-  stylelint@16.14.1(typescript@5.7.3):
+  stylelint@16.14.1(supports-color@7.2.0)(typescript@5.7.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-tokenizer': 3.0.3
@@ -4041,7 +4079,7 @@ snapshots:
       cosmiconfig: 9.0.0(typescript@5.7.3)
       css-functions-list: 3.2.3
       css-tree: 3.1.0
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       fast-glob: 3.3.3
       fastest-levenshtein: 1.0.16
       file-entry-cache: 10.0.6
@@ -4140,17 +4178,19 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typescript-eslint@8.23.0(eslint@9.20.0)(typescript@5.7.3):
+  typescript-eslint@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3):
     dependencies:
-      '@typescript-eslint/eslint-plugin': 8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.20.0)(typescript@5.7.3))(eslint@9.20.0)(typescript@5.7.3)
-      '@typescript-eslint/parser': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
-      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0)(typescript@5.7.3)
-      eslint: 9.20.0
+      '@typescript-eslint/eslint-plugin': 8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3))(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
+      '@typescript-eslint/parser': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.23.0(eslint@9.20.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.7.3)
+      eslint: 9.20.0(supports-color@7.2.0)
       typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
 
   typescript@5.7.3: {}
+
+  typescript@6.0.3: {}
 
   undici-types@6.20.0: {}
 
@@ -4173,10 +4213,10 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.18
 
-  vite-node@2.1.9(@types/node@22.13.1):
+  vite-node@2.1.9(@types/node@22.13.1)(supports-color@7.2.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       es-module-lexer: 1.6.0
       pathe: 1.1.2
       vite: 5.4.14(@types/node@22.13.1)
@@ -4217,7 +4257,7 @@ snapshots:
       '@types/node': 22.13.1
       fsevents: 2.3.3
 
-  vitest@2.1.9(@types/node@22.13.1)(jsdom@25.0.1):
+  vitest@2.1.9(@types/node@22.13.1)(jsdom@25.0.1(supports-color@7.2.0))(supports-color@7.2.0):
     dependencies:
       '@vitest/expect': 2.1.9
       '@vitest/mocker': 2.1.9(vite@5.4.14(@types/node@22.13.1))
@@ -4227,7 +4267,7 @@ snapshots:
       '@vitest/spy': 2.1.9
       '@vitest/utils': 2.1.9
       chai: 5.1.2
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@7.2.0)
       expect-type: 1.1.0
       magic-string: 0.30.17
       pathe: 1.1.2
@@ -4237,11 +4277,11 @@ snapshots:
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
       vite: 5.4.14(@types/node@22.13.1)
-      vite-node: 2.1.9(@types/node@22.13.1)
+      vite-node: 2.1.9(@types/node@22.13.1)(supports-color@7.2.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.13.1
-      jsdom: 25.0.1
+      jsdom: 25.0.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - less
       - lightningcss
